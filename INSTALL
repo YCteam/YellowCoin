@@ -1,0 +1,9 @@
+Building CommunityCoin
+
+See doc/readme-qt.rst for instructions on building CommunityCoin QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of CommunityCoin.
+
+See doc/build-*.txt for instructions on building CommunityCoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of CommunityCoin.

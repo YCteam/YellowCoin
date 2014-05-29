@@ -26,6 +26,7 @@
 #include "guiutil.h"
 #include "rpcconsole.h"
 
+
 #ifdef Q_OS_MAC
 #include "macdockiconhandler.h"
 #endif
@@ -520,7 +521,19 @@ void BitcoinGUI::setNumBlocks(int count, int nTotalBlocks)
     // Override progressBarLabel text and hide progress bar, when we have warnings to display
     if (!strStatusBarWarnings.isEmpty())
     {
-        progressBarLabel->setText(strStatusBarWarnings);
+        QString s1 = "Info:Minting suspended due to locked wallet.";
+        QString s2 = "Warning: This version is obsolete, upgrade required!";
+        if (strStatusBarWarnings == s1)
+        {
+            progressBarLabel->setText(tr("Info:Minting suspended due to locked wallet."));
+        }
+        else
+        if (strStatusBarWarnings == s2)
+        {
+            progressBarLabel->setText(tr("Warning: This version is obsolete, upgrade required!"));
+        }
+        else
+            progressBarLabel->setText(strStatusBarWarnings);
         progressBarLabel->setVisible(true);
         progressBar->setVisible(false);
     }

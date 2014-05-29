@@ -338,7 +338,7 @@ This product includes software developed by the OpenSSL Project for use in the O
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+260"/>
+        <location filename="../bitcoingui.cpp" line="+261"/>
         <source>Sign &amp;message...</source>
         <translation>对消息签名...</translation>
     </message>
@@ -418,7 +418,17 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished">%1 个交易历史的区块已下载.</translation>
     </message>
     <message>
-        <location line="+11"/>
+        <location line="+10"/>
+        <source>Info:Minting suspended due to locked wallet.</source>
+        <translation type="unfinished">提示：由于钱包被锁所以暂停挖矿.</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Warning: This version is obsolete, upgrade required!</source>
+        <translation type="unfinished">警告：该软件版本已过时，请升级！</translation>
+    </message>
+    <message>
+        <location line="+8"/>
         <source>Current difficulty is %1.</source>
         <translation type="unfinished">当前难度为%1.</translation>
     </message>
@@ -477,7 +487,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished">备份钱包到其它文件夹失败.</translation>
     </message>
     <message>
-        <location line="-624"/>
+        <location line="-636"/>
         <source>&amp;Receive coins</source>
         <translation>接收</translation>
     </message>
@@ -732,7 +742,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="obsolete">该交易的字节数超标。您可以选择支付%1的交易费给处理您的交易的网络节点，有助于黄币网络的运行。您愿意支付这笔交易费用吗？</translation>
     </message>
     <message>
-        <location line="+212"/>
+        <location line="+224"/>
         <source>Up to date</source>
         <translation>最新状态</translation>
     </message>
@@ -1556,15 +1566,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../../main.cpp" line="+1898"/>
         <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation type="unfinished">警告：该软件版本已过时，请升级！</translation>
+        <translation type="obsolete">警告：该软件版本已过时，请升级！</translation>
     </message>
     <message>
-        <location line="+2484"/>
-        <location line="+23"/>
         <source>Info:Minting suspended due to locked wallet.</source>
-        <translation type="unfinished">提示：由于钱包被锁所以暂停挖矿.</translation>
+        <translation type="obsolete">提示：由于钱包被锁所以暂停挖矿.</translation>
     </message>
 </context>
 <context>
@@ -2646,7 +2653,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>付款给自己</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+2"/>
+        <source>Mint by stake</source>
+        <translation type="unfinished">利息获取</translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>Mined</source>
         <translation>挖矿所得</translation>
     </message>
@@ -2736,6 +2748,10 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
+        <source>Mint by stake</source>
+        <translation type="unfinished">利息获取</translation>
+    </message>
+    <message>
         <location line="+1"/>
         <source>Mined</source>
         <translation>挖矿所得</translation>
@@ -2785,7 +2801,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>显示交易详情</translation>
     </message>
     <message>
-        <location line="+142"/>
+        <location line="+143"/>
         <source>Export Transaction Data</source>
         <translation>导出交易数据</translation>
     </message>
@@ -2963,7 +2979,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>连接一个节点并获取对端地址, 然后断开连接</translation>
     </message>
     <message>
-        <location line="+30"/>
+        <location line="-48"/>
+        <source>Error: Wallet unlocked for block minting only, unable to create transaction.use command “walletlock” to lock your wallet, than “walletpassphrase  &lt;passphrase&gt; &lt;timeout&gt;” to unlock your wallet.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+78"/>
         <source>Listen for connections on &lt;port&gt; (default: 20801 or testnet: 30801)</source>
         <translation type="unfinished">监听端口连接 &lt;port&gt; (缺省: 4200 or testnet: 14200) {20801 ?} {30801)?}</translation>
     </message>
@@ -3575,12 +3596,11 @@ rpcpassword=%s
         <translation type="unfinished">错误：因为该交易的数量、复杂度或者动用了刚收到不久的资金，您需要支付不少于%s的交易费用。</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Error: Wallet unlocked for block minting only, unable to create transaction.</source>
-        <translation type="unfinished">错误：钱包解密只用于产生利息，无法创建交易！</translation>
+        <translation type="obsolete">错误：钱包解密只用于产生利息，无法创建交易！</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+8"/>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 20802 or testnet: 30802)</source>
         <translation type="unfinished">JSON-RPC连接监听端口&lt;port&gt; (缺省420002　testnet：42001) {20802 ?} {30802)?}</translation>
     </message>

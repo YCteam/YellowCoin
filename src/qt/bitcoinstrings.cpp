@@ -39,7 +39,7 @@ QT_TRANSLATE_NOOP("bitcoin-core", ""
 "Error: This transaction requires a transaction fee of at least %s because of "
 "its amount, complexity, or use of recently received funds  "),
 QT_TRANSLATE_NOOP("bitcoin-core", ""
-"Error: Wallet unlocked for block minting only, unable to create transaction."),
+"Error: Wallet unlocked for block minting only, unable to create transaction.use command “walletlock” to lock your wallet, than “walletpassphrase  <passphrase> <timeout>” to unlock your wallet."),
 QT_TRANSLATE_NOOP("bitcoin-core", ""
 "Execute command when the best block changes (%s in cmd is replaced by block "
 "hash)"),

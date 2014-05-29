@@ -11,8 +11,6 @@
 #include "ui_interface.h"
 #include "kernel.h"
 #include "scrypt_mine.h"
-#include "qstring.h"
-#include <QObject>
 #include <boost/algorithm/string/replace.hpp>
 #include <boost/filesystem.hpp>
 #include <boost/filesystem/fstream.hpp>
@@ -1894,8 +1892,7 @@ bool CBlock::SetBestChain(CTxDB& txdb, CBlockIndex* pindexNew)
             printf("SetBestChain: %d of last 100 blocks above version %d\n", nUpgraded, CBlock::CURRENT_VERSION);
         if (nUpgraded > 100/2)
             // strMiscWarning is read by GetWarnings(), called by Qt and the JSON-RPC code to warn the user:            
-            //strMiscWarning = _("Warning: This version is obsolete, upgrade required!");
-            strMiscWarning = QObject::tr("Warning: This version is obsolete, upgrade required!").toStdString();
+            strMiscWarning = _("Warning: This version is obsolete, upgrade required!");
     }
 
     std::string strCmd = GetArg("-blocknotify", "");
@@ -4379,7 +4376,7 @@ void BitcoinMiner(CWallet *pwallet, bool fProofOfStake)
 
         while (pwallet->IsLocked())
         {
-            strMintWarning = QObject::tr("Info:Minting suspended due to locked wallet.").toStdString();
+            strMintWarning = strMintMessage;
             Sleep(1000);
         }
         strMintWarning = "";
@@ -4402,7 +4399,7 @@ void BitcoinMiner(CWallet *pwallet, bool fProofOfStake)
             {
                 if (!pblock->SignBlock(*pwalletMain))
                 {
-                    strMintWarning = QObject::tr("Info:Minting suspended due to locked wallet.").toStdString();
+                    strMintWarning = strMintMessage;
                     continue;
                 }
                 strMintWarning = "";

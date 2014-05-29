@@ -1813,7 +1813,7 @@ string CWallet::SendMoney(CScript scriptPubKey, int64 nValue, CWalletTx& wtxNew,
     }
     if (fWalletUnlockMintOnly)
     {
-        string strError = _("Error: Wallet unlocked for block minting only, unable to create transaction.");
+        string strError = _("Error: Wallet unlocked for block minting only, unable to create transaction.use command “walletlock” to lock your wallet, than “walletpassphrase  <passphrase> <timeout>” to unlock your wallet.");
         printf("SendMoney() : %s", strError.c_str());
         return strError;
     }

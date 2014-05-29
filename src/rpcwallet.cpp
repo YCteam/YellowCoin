@@ -1398,6 +1398,14 @@ Value walletpassphrase(const Array& params, bool fHelp)
 
     if (!pwalletMain->IsLocked())
         throw JSONRPCError(RPC_WALLET_ALREADY_UNLOCKED, "Error: Wallet is already unlocked, use walletlock first if need to change unlock settings.");
+/*    if (!pwalletMain->IsLocked())
+    {
+        if (params.size() > 2)
+            fWalletUnlockMintOnly = params[2].get_bool();
+        else
+            fWalletUnlockMintOnly = false;
+        return true;
+    }*/
     // Note that the walletpassphrase is stored in params[0] which is not mlock()ed
     SecureString strWalletPass;
     strWalletPass.reserve(100);

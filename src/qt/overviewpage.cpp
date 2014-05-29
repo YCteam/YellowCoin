@@ -9,6 +9,7 @@
 #include "guiutil.h"
 #include "guiconstants.h"
 #include "askpassphrasedialog.h"
+#include "wallet.h"
 
 #include <QAbstractItemDelegate>
 #include <QPainter>
@@ -161,13 +162,15 @@ void OverviewPage::unlockWallet()
         dlg.setModel(model);
         if(dlg.exec() == QDialog::Accepted)
         {
-            ui->unlockWalletButton->setText(QString("Lock Wallet"));
+            ui->unlockWalletButton->setText(QString(tr("Lock Wallet")));
+            fWalletUnlockMintOnly = true;
         }
     }
     else
     {
         model->setWalletLocked(true);
-        ui->unlockWalletButton->setText(QString("Unlock Wallet"));
+        ui->unlockWalletButton->setText(QString(tr("Unlock Wallet")));
+        fWalletUnlockMintOnly = true;
     }
 }
 
@@ -228,3 +231,9 @@ void OverviewPage::showOutOfSyncWarning(bool fShow)
     ui->labelWalletStatus->setVisible(fShow);
     ui->labelTransactionsStatus->setVisible(fShow);
 }
+
+void OverviewPage::setButtonText(QString name)
+{
+  ui->unlockWalletButton->setText(name);
+}
+

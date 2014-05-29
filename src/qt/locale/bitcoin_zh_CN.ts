@@ -1,41 +1,72 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh_CN" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="zh_CN">
 <defaultcodec>UTF-8</defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
-        <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About Yellowcoin</source>
-        <translation>关于YC币</translation>
+        <translation type="obsolete">关于黄币</translation>
     </message>
     <message>
-        <location line="+39"/>
         <source>&lt;b&gt;Yellowcoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;YC币&lt;/b&gt;版本</translation>
+        <translation type="obsolete">黄币版本</translation>
     </message>
     <message>
-        <location line="+57"/>
+        <source>Copyright © 2013 The Yellowcoin developers</source>
+        <translation type="obsolete">版权所有 © 2013 黄币开发团队</translation>
+    </message>
+    <message>
         <source>
 This is experimental software.
 
 Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation>
-This is experimental software.
+        <translation type="obsolete">
 
-Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
+这是一个实验性软件。
+
+Distributed under the MIT/X11 software license, see the accompanying file license.txt or http://www.opensource.org/licenses/mit-license.php.
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="+14"/>
-        <source>Copyright</source>
-        <translation>版权</translation>
+        <location filename="../forms/aboutdialog.ui" line="+14"/>
+        <source>About YellowCoin</source>
+        <translation type="unfinished">关于黄币</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>The Yellowcoin developers</source>
-        <translation>Yellowcoin-qt 客户端开发团队</translation>
+        <location line="+39"/>
+        <source>&lt;b&gt;YellowCoin&lt;/b&gt; version</source>
+        <translation type="unfinished">黄币版本</translation>
+    </message>
+    <message>
+        <location line="+41"/>
+        <source>
+Copyright © 2009-2012 Bitcoin Developers
+Copyright © 2012 PeerCoin Developers
+Copyright © 2014 YellowCoin Developers
+</source>
+        <translation type="unfinished">
+版权所有 2009-2012 Bitcoin 开发团队
+版权所有 2012 PeerCoin 开发团队
+版权所有 2014 YellowCoin 开发团队</translation>
+    </message>
+    <message>
+        <location line="+17"/>
+        <source>
+This is experimental software. If you don&apos;t treat it as such, you&apos;re likely to put an eye out!
+
+Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
+        <translation type="unfinished">
+这是一款实验性软件。请认真对待，否则你可能会有损失！
+
+在MIT/X11软件授权下发行。详见附带文件副本或 http://www.opensource.org/licenses/mit-license.php.
+
+本产品包含由OpenSSL项目开发的软件，以在 OpenSSL Toolkit (http://www.openssl.org) 中使用，以及Eric Young（eay@cryptsoft.com）所写的加密软件和Thomas Bernard所写的UPnP软件。</translation>
     </message>
 </context>
 <context>
@@ -43,10 +74,15 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
         <source>Address Book</source>
-        <translation>通讯录</translation>
+        <translation>地址薄</translation>
     </message>
     <message>
-        <location line="+19"/>
+        <location line="+6"/>
+        <source>There are your YellowCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation type="unfinished">这是您用来收款的YC币地址。为了标记不同的资金来源，建议为每个付款人保留不同的收款地址。</translation>
+    </message>
+    <message>
+        <location line="+16"/>
         <source>Double-click to edit address or label</source>
         <translation>双击以编辑地址或标签</translation>
     </message>
@@ -61,20 +97,23 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>复制当前选中地址到系统剪贴板</translation>
     </message>
     <message>
-        <location line="-11"/>
-        <source>&amp;New Address</source>
-        <translation>&amp;新建地址</translation>
+        <location line="+25"/>
+        <source>Sign a message to prove you own a YellowCoin address</source>
+        <translation type="unfinished">发送签名消息以证明您是该黄币地址的拥有者</translation>
     </message>
-	 <message>
-        <location line="-46"/>
-        <source>These are your BottleCaps addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>这是您用来收款的YC币地址。为了标记不同的资金来源，建议为每个付款人保留不同的收款地址。</translation>
-    </message>
-
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
+        <location line="-36"/>
+        <source>&amp;New Address</source>
+        <translation>新建地址</translation>
+    </message>
+    <message>
+        <source>These are your Ocoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation type="obsolete">这是你接收付款的赏金币地址。你可以给每个发送者一个不同的地址，从而能够确定是谁向你发送了货币。</translation>
+    </message>
+    <message>
+        <location line="+14"/>
         <source>&amp;Copy Address</source>
-        <translation>&amp;复制地址</translation>
+        <translation>复制地址</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -82,69 +121,44 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>显示二维码</translation>
     </message>
     <message>
-        <location line="+11"/>
-        <source>Sign a message to prove you own a Yellowcoin address</source>
-        <translation>签名消息，证明这个地址属于您。</translation>
-    </message>
-    <message>
-        <location line="+3"/>
+        <location line="+14"/>
         <source>Sign &amp;Message</source>
-        <translation>对消息签名</translation>
+        <translation>发送签名消息</translation>
     </message>
     <message>
-        <location line="+25"/>
+        <location line="+11"/>
+        <source>Verify a message to ensure it was signed with a specified YellowCoin address</source>
+        <translation type="unfinished">进行消息验证，以确认该消息是被某一黄币地址签名的。</translation>
+    </message>
+    <message>
+        <location line="+14"/>
         <source>Delete the currently selected address from the list</source>
-        <translation>从列表中删除选中的地址</translation>
+        <translation>从列表中删除当前选中地址。只有发送地址可以被删除。</translation>
     </message>
     <message>
-        <location line="+27"/>
-        <source>Export the data in the current tab to a file</source>
-        <translation>导出当前数据到文件</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Export</source>
-        <translation>&amp;导出</translation>
-    </message>
-    <message>
-        <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Yellowcoin address</source>
-        <translation>验证消息，确保消息是由指定的YC币地址签名过的。</translation>
-    </message>
-    <message>
-        <location line="+3"/>
+        <location line="-11"/>
         <source>&amp;Verify Message</source>
-        <translation>&amp;验证消息</translation>
+        <translation>验证消息</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>&amp;Delete</source>
-        <translation>&amp;删除</translation>
-    </message>
-    <message>
-        <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Yellowcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>这是您用来付款的YC币地址。在付款前，请总是核实付款金额和收款地址。</translation>
+        <translation>删除</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+65"/>
         <source>Copy &amp;Label</source>
-        <translation>复制 &amp;标签</translation>
+        <translation>复制标签</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+2"/>
         <source>&amp;Edit</source>
-        <translation>&amp;编辑</translation>
+        <translation>编辑</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>&amp;Send coins</source>
-        <translation>发送</translation>
-    </message>
-    <message>
-        <location line="+260"/>
+        <location line="+250"/>
         <source>Export Address Book Data</source>
-        <translation>导出通讯录数据</translation>
+        <translation>导出地址薄数据</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -165,7 +179,7 @@ This product includes software developed by the OpenSSL Project for use in the O
 <context>
     <name>AddressTableModel</name>
     <message>
-        <location filename="../addresstablemodel.cpp" line="+144"/>
+        <location filename="../addresstablemodel.cpp" line="+142"/>
         <source>Label</source>
         <translation>标签</translation>
     </message>
@@ -190,22 +204,22 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+21"/>
         <source>Enter passphrase</source>
-        <translation>输入密码</translation>
+        <translation>输入口令</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>New passphrase</source>
-        <translation>新密码</translation>
+        <translation>新口令</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Repeat new passphrase</source>
-        <translation>重复新密码</translation>
+        <translation>重复新口令</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="+33"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>输入钱包的新密码。&lt;br/&gt;使用的密码请至少包含&lt;b&gt;10个以上随机字符&lt;/&gt;，或者是&lt;b&gt;8个以上的单词&lt;/b&gt;。</translation>
+        <translation>输入钱包的新口令。&lt;br/&gt;使用的口令请至少包含&lt;b&gt;10个以上随机字符&lt;/&gt;，或者是&lt;b&gt;8个以上的单词&lt;/b&gt;。</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -215,7 +229,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+3"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>该操作需要您首先使用密码解锁钱包。</translation>
+        <translation>该操作需要您首先使用口令解锁钱包。</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -225,7 +239,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+3"/>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>该操作需要您首先使用密码解密钱包。</translation>
+        <translation>该操作需要您首先使用口令解密钱包。</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -235,12 +249,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+3"/>
         <source>Change passphrase</source>
-        <translation>修改密码</translation>
+        <translation>修改口令</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>请输入钱包的旧密码与新密码。</translation>
+        <translation>请输入钱包的旧口令与新口令。</translation>
     </message>
     <message>
         <location line="+46"/>
@@ -249,16 +263,21 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR YellowcoinS&lt;/b&gt;!</source>
-        <translation>警告：如果您加密了您的钱包，但是忘记了密码，你将会&lt;b&gt;丢失所有的YC币&lt;/b&gt;！</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</source>
+        <translation>警告：如果您加密了您的钱包之后忘记了口令，您将会失去所有的黄币!</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>您确定需要为钱包加密吗？</translation>
+        <translation type="unfinished">确定要加密钱包吗?</translation>
     </message>
     <message>
-        <location line="+15"/>
+        <location line="+11"/>
+        <source>YellowCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation type="unfinished">黄币将关闭客户端软件以完成加密过程，完成加密后，请即时备份加密后的钱包。 请您谨记：钱包加密并不是万能的，电脑中毒，您的黄币还是有可能丢失。</translation>
+    </message>
+    <message>
+        <location line="+4"/>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
         <translation>重要提示：您以前备份的钱包文件应该替换成最新生成的加密钱包文件（重新备份）。从安全性上考虑，您以前备份的未加密的钱包文件，在您使用新的加密钱包后将无效，请重新备份。</translation>
     </message>
@@ -275,12 +294,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>钱包已加密</translation>
     </message>
     <message>
-        <location line="-56"/>
-        <source>Yellowcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Yellowcoins from being stolen by malware infecting your computer.</source>
-        <translation>将关闭软件以完成加密过程。 请您谨记：钱包加密并不是万能的，电脑中毒，您的YC币还是有可能丢失。</translation>
-    </message>
-    <message>
-        <location line="+13"/>
+        <location line="-43"/>
         <location line="+7"/>
         <location line="+42"/>
         <location line="+6"/>
@@ -324,67 +338,176 @@ This product includes software developed by the OpenSSL Project for use in the O
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+233"/>
+        <location filename="../bitcoingui.cpp" line="+260"/>
         <source>Sign &amp;message...</source>
-        <translation>对&amp;消息签名...</translation>
+        <translation>对消息签名...</translation>
     </message>
     <message>
-        <location line="+280"/>
+        <location line="+87"/>
+        <location line="+60"/>
+        <source>YellowCoin client</source>
+        <translation type="unfinished">黄币客户端</translation>
+    </message>
+    <message numerus="yes">
+        <location line="+70"/>
+        <source>%n active connection(s) to YellowCoin network</source>
+        <translation>
+            <numerusform>到黄币网络的活动连接共有%n条</numerusform>
+        </translation>
+    </message>
+    <message>
+        <location line="+24"/>
         <source>Synchronizing with network...</source>
         <translation>正在与网络同步...</translation>
     </message>
     <message>
-        <location line="-349"/>
+        <location line="-303"/>
         <source>&amp;Overview</source>
-        <translation>&amp;概况</translation>
+        <translation>概况</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="-126"/>
+        <source>YellowCoin</source>
+        <translation type="unfinished">黄币</translation>
+    </message>
+    <message>
+        <location line="+127"/>
         <source>Show general overview of wallet</source>
         <translation>显示钱包概况</translation>
     </message>
     <message>
-        <location line="+20"/>
+        <location line="+6"/>
+        <source>Send coins to a YellowCoin address</source>
+        <translation type="unfinished">向一个黄币地址发送黄币</translation>
+    </message>
+    <message>
+        <location line="+11"/>
         <source>&amp;Transactions</source>
-        <translation>&amp;交易记录</translation>
+        <translation>交易记录</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Browse transaction history</source>
         <translation>查看交易历史</translation>
     </message>
-	<message>
+    <message>
         <location line="+5"/>
         <source>&amp;Address Book</source>
-        <translation>&amp;通讯录</translation>
+        <translation>通讯录</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+1"/>
         <source>Edit the list of stored addresses and labels</source>
         <translation>修改存储的地址和标签列表</translation>
     </message>
-	 <message>
-        <location line="-13"/>
-        <source>&amp;Receive coins</source>
-        <translation>&amp;接收</translation>
+    <message numerus="yes">
+        <location line="+280"/>
+        <source>~%n block(s) remaining</source>
+        <translation>
+            <numerusform>还剩 ~%n 个区块</numerusform>
+        </translation>
     </message>
     <message>
-        <location line="-14"/>
+        <location line="+6"/>
+        <source>Downloaded %1 of %2 blocks of transaction history (%3% done).</source>
+        <translation type="unfinished">已下载 %2 个交易历史区块中的 %1 个 (完成率 %3% ).</translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Downloaded %1 blocks of transaction history.</source>
+        <translation type="unfinished">%1 个交易历史的区块已下载.</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Current difficulty is %1.</source>
+        <translation type="unfinished">当前难度为%1.</translation>
+    </message>
+    <message numerus="yes">
+        <location line="+13"/>
+        <source>%n second(s) ago</source>
+        <translation>
+            <numerusform>%n 秒前</numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <location line="+4"/>
+        <source>%n minute(s) ago</source>
+        <translation>
+            <numerusform>%n 分钟前</numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <location line="+4"/>
+        <source>%n hour(s) ago</source>
+        <translation>
+            <numerusform>%n 小时前</numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <location line="+4"/>
+        <source>%n day(s) ago</source>
+        <translation>
+            <numerusform>%n 天前</numerusform>
+        </translation>
+    </message>
+    <message>
+        <location line="+216"/>
+        <location line="+15"/>
+        <source>URI can not be parsed! This can be caused by an invalid YellowCoin address or malformed URI parameters.</source>
+        <translation type="unfinished">URI无法解析! 可能是因为黄币地址无效或URI参数不正确。</translation>
+    </message>
+    <message>
+        <location line="+47"/>
+        <source>Backup Wallet</source>
+        <translation type="unfinished">备份钱包</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Wallet Data (*.dat)</source>
+        <translation type="unfinished">钱包文件(*.dat)</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Backup Failed</source>
+        <translation type="unfinished">备份失败</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>There was an error trying to save the wallet data to the new location.</source>
+        <translation type="unfinished">备份钱包到其它文件夹失败.</translation>
+    </message>
+    <message>
+        <location line="-624"/>
+        <source>&amp;Receive coins</source>
+        <translation>接收</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Show the list of addresses for receiving payments</source>
         <translation>显示接收支付的地址列表</translation>
     </message>
-	<message>
+    <message>
         <location line="-7"/>
         <source>&amp;Send coins</source>
-        <translation>&amp;发送</translation>
-    </message>
-	 <message>
-        <location line="-242"/>
-        <source>&amp;Export...</source>
-        <translation>&amp;导出...</translation>
+        <translation>发送</translation>
     </message>
     <message>
-        <location line="+31"/>
+        <location line="+39"/>
+        <source>&amp;About YellowCoin</source>
+        <translation type="unfinished">关于黄币</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Show information about YellowCoin</source>
+        <translation type="unfinished">显示黄币的相关信息</translation>
+    </message>
+    <message>
+        <location line="+19"/>
+        <source>&amp;Export...</source>
+        <translation>导出...</translation>
+    </message>
+    <message>
+        <location line="-24"/>
         <source>E&amp;xit</source>
         <translation>退出</translation>
     </message>
@@ -394,14 +517,9 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>退出程序</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Show information about Yellowcoin</source>
-        <translation>显示YC币的相关信息</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+6"/>
         <source>About &amp;Qt</source>
-        <translation>关于 &amp;Qt</translation>
+        <translation>关于Qt</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -411,45 +529,51 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+2"/>
         <source>&amp;Options...</source>
-        <translation>&amp;选项...</translation>
+        <translation>选项...</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;加密钱包...</translation>
+        <location line="+1"/>
+        <source>Modify configuration options for YellowCoin</source>
+        <translation type="unfinished">修改黄币配置选项</translation>
     </message>
     <message>
         <location line="+3"/>
+        <source>&amp;Encrypt Wallet...</source>
+        <translation>加密钱包...</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Encrypt or decrypt wallet</source>
+        <translation type="unfinished">加密或解密钱包</translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;备份钱包...</translation>
+        <translation>备份钱包...</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;修改密码...</translation>
+        <translation>修改密码...</translation>
     </message>
     <message>
-        <location line="+285"/>
         <source>Importing blocks from disk...</source>
-        <translation>正在从磁盘导入数据块...</translation>
+        <translation type="obsolete">正在从磁盘导入数据块...</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Reindexing blocks on disk...</source>
-        <translation>正在为数据块建立索引...</translation>
+        <translation type="obsolete">正在为数据块建立索引...</translation>
     </message>
     <message>
-        <location line="-347"/>
         <source>Send coins to a Yellowcoin address</source>
-        <translation>向一个YC币地址发送YC币</translation>
+        <translation type="obsolete">发币给一个黄币地址</translation>
     </message>
     <message>
-        <location line="+49"/>
         <source>Modify configuration options for Yellowcoin</source>
-        <translation>设置选项</translation>
+        <translation type="obsolete">设置选项</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="-1"/>
         <source>Backup wallet to another location</source>
         <translation>备份钱包到其它文件夹</translation>
     </message>
@@ -459,9 +583,14 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>修改钱包加密口令</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+5"/>
+        <source>Export the data in the current tab to a file</source>
+        <translation type="unfinished">导出当前数据到文件</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>&amp;Debug window</source>
-        <translation>&amp;调试窗口</translation>
+        <translation>调试窗口</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -469,189 +598,171 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>在诊断控制台调试</translation>
     </message>
     <message>
-        <location line="-4"/>
+        <location line="-5"/>
         <source>&amp;Verify message...</source>
-        <translation>&amp;验证消息...</translation>
+        <translation>验证消息...</translation>
     </message>
     <message>
-        <location line="-165"/>
-        <location line="+530"/>
         <source>Yellowcoin</source>
-        <translation>YC币</translation>
+        <translation type="obsolete">黄币</translation>
     </message>
     <message>
-        <location line="-530"/>
+        <location line="-189"/>
         <source>Wallet</source>
         <translation>钱包</translation>
     </message>
     <message>
-        <location line="+101"/>
-        <source>&amp;Send</source>
-        <translation>&amp;发送</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>&amp;Receive coins</source>
-        <translation>&amp;接收</translation>
-    </message>
-    <message>
-        <location line="+14"/>
-        <source>&amp;Addresses</source>
-        <translation>&amp;地址</translation>
-    </message>
-    <message>
-        <location line="+22"/>
-        <source>&amp;About Yellowcoin</source>
-        <translation>&amp;关于YC币</translation>
-    </message>
-    <message>
-        <location line="+9"/>
+        <location line="+180"/>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;显示 / 隐藏</translation>
+        <translation>显示 / 隐藏</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show or hide the main Window</source>
-        <translation>显示或隐藏主窗口</translation>
+        <translation type="obsolete">显示或隐藏主窗口</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>对钱包中的私钥加密</translation>
+        <translation type="obsolete">对钱包中的私钥加密</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Sign messages with your Yellowcoin addresses to prove you own them</source>
-        <translation>用YC币地址关联的私钥为消息签名，以证明您拥有这个YC币地址</translation>
+        <translation type="obsolete">用黄币地址关联的私钥为消息签名，以证明您拥有这个黄币地址</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Verify messages to ensure they were signed with specified Yellowcoin addresses</source>
-        <translation>校验消息，确保该消息是由指定的YC币地址所有者签名的</translation>
+        <translation type="obsolete">校验消息，确保该消息是由指定的黄币地址所有者签名的</translation>
     </message>
     <message>
-        <location line="+28"/>
+        <location line="+39"/>
         <source>&amp;File</source>
-        <translation>&amp;文件</translation>
+        <translation>文件</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+8"/>
         <source>&amp;Settings</source>
-        <translation>&amp;设置</translation>
+        <translation>设置</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Help</source>
-        <translation>&amp;帮助</translation>
+        <translation>帮助</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+12"/>
         <source>Tabs toolbar</source>
         <translation>分页工具栏</translation>
     </message>
     <message>
-        <location line="+17"/>
-        <location line="+10"/>
+        <location line="+8"/>
+        <source>Actions toolbar</source>
+        <translation type="unfinished">动作工具栏</translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <location line="+9"/>
         <source>[testnet]</source>
         <translation>[testnet]</translation>
     </message>
     <message>
-        <location line="+47"/>
         <source>Yellowcoin client</source>
-        <translation>YC币客户端</translation>
+        <translation type="obsolete">黄币客户端</translation>
     </message>
     <message numerus="yes">
-        <location line="+141"/>
         <source>%n active connection(s) to Yellowcoin network</source>
-        <translation><numerusform>到YC币网络的连接共有%n条</numerusform></translation>
+        <translation type="obsolete">
+            <numerusform>到黄币网络的连接共有%n条</numerusform>
+        </translation>
     </message>
     <message>
-        <location line="+22"/>
         <source>No block source available...</source>
-        <translation>No block source available...</translation>
+        <translation type="obsolete">No block source available...</translation>
     </message>
     <message>
-        <location line="+12"/>
         <source>Processed %1 of %2 (estimated) blocks of transaction history.</source>
-        <translation>%1 / %2 个交易历史的区块已下载</translation>
+        <translation type="obsolete">%1 / %2 个交易历史的区块已下载</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Processed %1 blocks of transaction history.</source>
-        <translation>已处理 %1 个交易历史数据块。</translation>
+        <translation type="obsolete">已处理 %1 个交易历史数据块。</translation>
     </message>
     <message numerus="yes">
-        <location line="+20"/>
         <source>%n hour(s)</source>
-        <translation><numerusform>%n 小时前</numerusform></translation>
+        <translation type="obsolete">
+            <numerusform>%n 小时前</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
-        <location line="+4"/>
         <source>%n day(s)</source>
-        <translation><numerusform>%n 天前</numerusform></translation>
+        <translation type="obsolete">
+            <numerusform>%n 天前</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
-        <location line="+4"/>
         <source>%n week(s)</source>
-        <translation><numerusform>%n 周前</numerusform></translation>
+        <translation type="obsolete">
+            <numerusform>%n 周前</numerusform>
+        </translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>%1 behind</source>
-        <translation>落后 %1 </translation>
+        <translation type="obsolete">落后 %1 </translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Last received block was generated %1 ago.</source>
-        <translation>最新收到的区块产生于 %1。</translation>
+        <translation type="obsolete">最新收到的区块产生于 %1。</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>在此之后的交易尚未可见</translation>
+        <translation type="obsolete">在此之后的交易尚未可见</translation>
     </message>
     <message>
-        <location line="+22"/>
         <source>Error</source>
-        <translation>错误</translation>
+        <translation type="obsolete">错误</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Warning</source>
-        <translation>警告</translation>
+        <translation type="obsolete">警告</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Information</source>
-        <translation>信息</translation>
+        <translation type="obsolete">信息</translation>
     </message>
     <message>
-        <location line="+70"/>
         <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation>该交易的字节数超标。您可以选择支付%1的交易费给处理您的交易的网络节点，有助于YC币网络的运行。您愿意支付这笔交易费用吗？</translation>
+        <translation type="obsolete">该交易的字节数超标。您可以选择支付%1的交易费给处理您的交易的网络节点，有助于黄币网络的运行。您愿意支付这笔交易费用吗？</translation>
     </message>
     <message>
-        <location line="-140"/>
+        <location line="+212"/>
         <source>Up to date</source>
         <translation>最新状态</translation>
     </message>
     <message>
-        <location line="+31"/>
+        <location line="+7"/>
         <source>Catching up...</source>
         <translation>更新中...</translation>
     </message>
     <message>
-        <location line="+113"/>
+        <location line="+10"/>
+        <source>Last received block was generated %1.</source>
+        <translation type="unfinished">最新收到的区块产生于 %1。</translation>
+    </message>
+    <message>
+        <location line="+59"/>
+        <source>This transaction is over the size limit.  You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network.  Do you want to pay the fee?</source>
+        <translation type="unfinished">该笔交易的数据量超限. 您可以选择支付 %1 交易费，交易费将支付给处理该笔交易的网络节点，有助于维持黄币网络的运行. 您愿意支付交易费用吗？</translation>
+    </message>
+    <message>
+        <location line="+5"/>
         <source>Confirm transaction fee</source>
         <translation>确认交易费</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+27"/>
         <source>Sent transaction</source>
         <translation>已发送交易</translation>
     </message>
     <message>
-        <location line="+0"/>
+        <location line="+1"/>
         <source>Incoming transaction</source>
         <translation>流入交易</translation>
     </message>
@@ -669,39 +780,313 @@ Address: %4
 </translation>
     </message>
     <message>
-        <location line="+33"/>
-        <location line="+23"/>
+        <location line="+100"/>
+        <location line="+15"/>
         <source>URI handling</source>
         <translation>URI 处理</translation>
     </message>
     <message>
-        <location line="-23"/>
-        <location line="+23"/>
         <source>URI can not be parsed! This can be caused by an invalid Yellowcoin address or malformed URI parameters.</source>
-        <translation>URI无法解析！原因可能是YC币地址不正确，或者URI参数错误。</translation>
+        <translation type="obsolete">URI无法解析！原因可能是黄币地址不正确，或者URI参数错误。</translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="+16"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>钱包已被&lt;b&gt;加密&lt;/b&gt;，当前为&lt;b&gt;解锁&lt;/b&gt;状态</translation>
+        <translation>钱包已被加密,当前为解锁状态.</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>钱包已被&lt;b&gt;加密&lt;/b&gt;，当前为&lt;b&gt;锁定&lt;/b&gt;状态</translation>
+        <translation>钱包已被加密,当前为锁定状态.</translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Yellowcoin can no longer continue safely and will quit.</source>
-        <translation>发生严重错误。</translation>
+        <location filename="../bitcoin.cpp" line="+109"/>
+        <source>A fatal error occurred. YellowCoin can no longer continue safely and will quit.</source>
+        <translation type="unfinished">发生致命错误. 黄币客户端的安全存在问题，将退出.</translation>
     </message>
 </context>
 <context>
     <name>ClientModel</name>
     <message>
-        <location filename="../clientmodel.cpp" line="+104"/>
+        <location filename="../clientmodel.cpp" line="+87"/>
         <source>Network Alert</source>
         <translation>网络警报</translation>
+    </message>
+</context>
+<context>
+    <name>CoinControlDialog</name>
+    <message>
+        <location filename="../forms/coincontroldialog.ui" line="+14"/>
+        <source>Coin Control</source>
+        <translation type="unfinished">拥有货币</translation>
+    </message>
+    <message>
+        <location line="+31"/>
+        <source>Quantity:</source>
+        <translation type="unfinished">数量</translation>
+    </message>
+    <message>
+        <location line="+19"/>
+        <location line="+32"/>
+        <source>0</source>
+        <translation type="unfinished">0</translation>
+    </message>
+    <message>
+        <location line="-19"/>
+        <source>Bytes:</source>
+        <translation type="unfinished">字节</translation>
+    </message>
+    <message>
+        <location line="+48"/>
+        <source>Amount:</source>
+        <translation type="unfinished">金额：</translation>
+    </message>
+    <message>
+        <location line="+19"/>
+        <location line="+80"/>
+        <location line="+86"/>
+        <location line="+38"/>
+        <source>0.00 MINT</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-191"/>
+        <source>Priority:</source>
+        <translation type="unfinished">优先级</translation>
+    </message>
+    <message>
+        <location line="+48"/>
+        <source>Fee:</source>
+        <translation type="unfinished">费用</translation>
+    </message>
+    <message>
+        <location line="+35"/>
+        <source>Low Output:</source>
+        <translation type="unfinished">低输出</translation>
+    </message>
+    <message>
+        <location line="+22"/>
+        <location filename="../coincontroldialog.cpp" line="+551"/>
+        <source>no</source>
+        <translation type="unfinished">否</translation>
+    </message>
+    <message>
+        <location line="+29"/>
+        <source>After Fee:</source>
+        <translation type="unfinished">加上交易费用后</translation>
+    </message>
+    <message>
+        <location line="+35"/>
+        <source>Change:</source>
+        <translation type="unfinished">更改</translation>
+    </message>
+    <message>
+        <location line="+69"/>
+        <source>(un)select all</source>
+        <translation type="unfinished">（不）全选</translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>Tree mode</source>
+        <translation type="unfinished">树型模式</translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>List mode</source>
+        <translation type="unfinished">列表模式</translation>
+    </message>
+    <message>
+        <location line="+45"/>
+        <source>Amount</source>
+        <translation type="unfinished">金额</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Label</source>
+        <translation type="unfinished">标签</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Address</source>
+        <translation type="unfinished">地址</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Date</source>
+        <translation type="unfinished">日期</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Confirmations</source>
+        <translation type="unfinished">确认</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Confirmed</source>
+        <translation type="unfinished">已确认</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Priority</source>
+        <translation type="unfinished">优先级</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="-515"/>
+        <source>Copy address</source>
+        <translation type="unfinished">复制地址</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Copy label</source>
+        <translation type="unfinished">复制标签</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location line="+26"/>
+        <source>Copy amount</source>
+        <translation type="unfinished">复制金额</translation>
+    </message>
+    <message>
+        <location line="-25"/>
+        <source>Copy transaction ID</source>
+        <translation type="unfinished">复制交易编号</translation>
+    </message>
+    <message>
+        <location line="+24"/>
+        <source>Copy quantity</source>
+        <translation type="unfinished">复制数量</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Copy fee</source>
+        <translation type="unfinished">复制费用</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Copy after fee</source>
+        <translation type="unfinished">复制含交易费的金额</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Copy bytes</source>
+        <translation type="unfinished">复制字节</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Copy priority</source>
+        <translation type="unfinished">复制优先级</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Copy low output</source>
+        <translation type="unfinished">复制低输出</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Copy change</source>
+        <translation type="unfinished">复制零钱</translation>
+    </message>
+    <message>
+        <location line="+317"/>
+        <source>highest</source>
+        <translation type="unfinished">最高</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>high</source>
+        <translation type="unfinished">高</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>medium-high</source>
+        <translation type="unfinished">中高</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>medium</source>
+        <translation type="unfinished">中等</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>low-medium</source>
+        <translation type="unfinished">中低</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>low</source>
+        <translation type="unfinished">低</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>lowest</source>
+        <translation type="unfinished">最低</translation>
+    </message>
+    <message>
+        <location line="+155"/>
+        <source>DUST</source>
+        <translation type="unfinished">尘埃交易</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>yes</source>
+        <translation type="unfinished">是</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>This label turns red, if the transaction size is bigger than 10000 bytes.
+
+ This means a fee of at least %1 per kb is required.
+
+ Can vary +/- 1 Byte per input.</source>
+        <translation type="unfinished">如果这笔交易大于10000字节，标签会变成红色。
+ 这意味着将对交易收取 %1/千字节 的交易费。
+ 每笔输入可能会有 正负1字节的偏差。</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Transactions with higher priority get more likely into a block.
+
+This label turns red, if the priority is smaller than &quot;medium&quot;.
+
+ This means a fee of at least %1 per kb is required.</source>
+        <translation type="unfinished">交易的优先级越高，被矿工收入数据块的速度也越快。
+如果优先级小于&quot;中位数&quot; ，标签将变成红色。
+这意味着将对交易收取 %1/千字节 的交易费。</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>This label turns red, if any recipient receives an amount smaller than %1.
+
+ This means a fee of at least %2 is required. 
+
+ Amounts below 0.546 times the minimum relay fee are shown as DUST.</source>
+        <translation type="unfinished">如果收款地址收到小于%1的黄币，标签将变成红色。
+这意味着至少需要 %2的交易费。
+小于最小转发交易费的0.546倍的 转账金额将被视为 尘埃交易。</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>This label turns red, if the change is smaller than %1.
+
+ This means a fee of at least %2 is required.</source>
+        <translation type="unfinished">如果零钱小于 %1，标签将变成红色。
+ 这意味着至少需要 %2的交易费。</translation>
+    </message>
+    <message>
+        <location line="+37"/>
+        <location line="+66"/>
+        <source>(no label)</source>
+        <translation type="unfinished">(没有标签)</translation>
+    </message>
+    <message>
+        <location line="-9"/>
+        <source>change from %1 (%2)</source>
+        <translation type="unfinished">来自%1的零钱 (%2)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>(change)</source>
+        <translation type="unfinished">(零钱)</translation>
     </message>
 </context>
 <context>
@@ -714,7 +1099,7 @@ Address: %4
     <message>
         <location line="+11"/>
         <source>&amp;Label</source>
-        <translation>&amp;标签</translation>
+        <translation>标签</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -724,7 +1109,7 @@ Address: %4
     <message>
         <location line="+7"/>
         <source>&amp;Address</source>
-        <translation>&amp;地址</translation>
+        <translation>地址</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -732,7 +1117,7 @@ Address: %4
         <translation>该地址与地址簿中的条目已关联，无法作为发送地址编辑。</translation>
     </message>
     <message>
-        <location filename="../editaddressdialog.cpp" line="+21"/>
+        <location filename="../editaddressdialog.cpp" line="+20"/>
         <source>New receiving address</source>
         <translation>新接收地址</translation>
     </message>
@@ -752,17 +1137,21 @@ Address: %4
         <translation>编辑发送地址</translation>
     </message>
     <message>
-        <location line="+76"/>
+        <location line="+60"/>
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
         <translation>输入的地址 &quot;%1&quot; 已经存在于地址簿。</translation>
     </message>
     <message>
-        <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Yellowcoin address.</source>
-        <translation>您输入的 &quot;%1&quot; 不是合法的YC币地址.</translation>
+        <location line="+5"/>
+        <source>The entered address &quot;%1&quot; is not a valid YellowCoin address.</source>
+        <translation type="unfinished">您输入的不是有效的黄币地址。</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <source>The entered address &quot;%1&quot; is not a valid Yellowcoin address.</source>
+        <translation type="obsolete">您输入的不是合法的黄币地址.</translation>
+    </message>
+    <message>
+        <location line="+5"/>
         <source>Could not unlock wallet.</source>
         <translation>无法解锁钱包</translation>
     </message>
@@ -775,18 +1164,22 @@ Address: %4
 <context>
     <name>GUIUtil::HelpMessageBox</name>
     <message>
-        <location filename="../guiutil.cpp" line="+424"/>
-        <location line="+12"/>
         <source>Yellowcoin-Qt</source>
-        <translation>Yellowcoin-Qt</translation>
+        <translation type="obsolete">Yellowcoin-Qt</translation>
     </message>
     <message>
-        <location line="-12"/>
+        <location filename="../guiutil.cpp" line="+419"/>
         <source>version</source>
         <translation>版本</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+0"/>
+        <location line="+12"/>
+        <source>YellowCoin-Qt</source>
+        <translation type="unfinished">黄币钱包</translation>
+    </message>
+    <message>
+        <location line="-10"/>
         <source>Usage:</source>
         <translation>使用：</translation>
     </message>
@@ -827,73 +1220,83 @@ Address: %4
     <message>
         <location line="+16"/>
         <source>&amp;Main</source>
-        <translation>&amp;主要的</translation>
+        <translation>主要的</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
-        <translation>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.01 recommended.</translation>
+        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.01 recommended.</source>
+        <translation type="unfinished">建议支付交易费用，有助于您的交易得到尽快处理.  绝大多数交易的字节数为 1 kB. 建议支付0.01个黄币.</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>Pay transaction &amp;fee</source>
-        <translation>支付交易 &amp;费用</translation>
+        <translation>支付交易费用</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Yellowcoin after logging in to the system.</source>
-        <translation>登录系统后自动开启YC币客户端</translation>
+        <source>Automatically start YellowCoin after logging in to the system.</source>
+        <translation type="unfinished">登录系统后自动开启黄币客户端</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start BottleCaps on system login</source>
-        <translation>启动时&amp;运行</translation>
+        <source>&amp;Start YellowCoin on system login</source>
+        <translation>启动时运行</translation>
     </message>
-	 <message>
-        <location line="+3"/>
+    <message>
+        <location line="+10"/>
         <source>&amp;Detach databases at shutdown</source>
-        <translation>&amp;Detach databases at shutdown</translation>
+        <translation>关闭客户端时分离数据库</translation>
     </message>
-
     <message>
-        <location line="+35"/>
         <source>Reset all client options to default.</source>
-        <translation>恢复客户端的缺省设置</translation>
+        <translation type="obsolete">恢复客户端的缺省设置</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Reset Options</source>
-        <translation>恢复缺省设置</translation>
+        <translation type="obsolete">恢复缺省设置</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <location line="+21"/>
         <source>&amp;Network</source>
-        <translation>&amp;网络</translation>
+        <translation>网络</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Automatically open the Yellowcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>自动在路由器中打开YC币端口。只有当您的路由器开启 UPnP 选项时此功能才有效。</translation>
+        <translation type="obsolete">自动在路由器中打开黄币端口。只有当您的路由器开启 UPnP 选项时此功能才有效。</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+9"/>
         <source>Map port using &amp;UPnP</source>
-        <translation>使用 &amp;UPnP 映射端口</translation>
+        <translation>使用映射端口</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Connect to the Yellowcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>通过代理服务器连接YC币网络(例如：通过Tor连接)</translation>
+        <translation type="obsolete">通过代理服务器连接黄币网络(例如：通过Tor连接)</translation>
+    </message>
+    <message>
+        <location line="-33"/>
+        <source>Detach block and address databases at shutdown. This means they can be moved to another data directory, but it slows down shutdown. The wallet is always detached.</source>
+        <translation type="unfinished">关机时断开区块和地址数据连接使得它们可以被移动到其他目录。这样做会使关机速度变慢。钱包数据总是断开存储的。</translation>
+    </message>
+    <message>
+        <location line="+30"/>
+        <source>Automatically open the YellowCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">路由器自动打开黄币客户端端口。该功能仅在路由器开启UPnP支持时有效。</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Connect to the YellowCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation type="unfinished">经SOCKS代理连接到黄币网络(例如使用Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Connect through SOCKS proxy:</source>
-        <translation>&amp;通过Socks代理连接:</translation>
+        <translation>通过Socks代理连接:</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Proxy &amp;IP:</source>
-        <translation>代理服务器&amp;IP:</translation>
+        <translation>代理服务器IP:</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -903,7 +1306,7 @@ Address: %4
     <message>
         <location line="+7"/>
         <source>&amp;Port:</source>
-        <translation>&amp;端口:</translation>
+        <translation>端口:</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -913,7 +1316,7 @@ Address: %4
     <message>
         <location line="+7"/>
         <source>SOCKS &amp;Version:</source>
-        <translation>Socks &amp;版本</translation>
+        <translation>Socks版本</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -923,7 +1326,7 @@ Address: %4
     <message>
         <location line="+36"/>
         <source>&amp;Window</source>
-        <translation>&amp;窗口</translation>
+        <translation>窗口</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -933,7 +1336,7 @@ Address: %4
     <message>
         <location line="+3"/>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp;最小化到托盘</translation>
+        <translation>最小化到托盘</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -948,84 +1351,95 @@ Address: %4
     <message>
         <location line="+21"/>
         <source>&amp;Display</source>
-        <translation>&amp;显示</translation>
+        <translation>显示</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>User Interface &amp;language:</source>
-        <translation>用户界面&amp;语言:</translation>
+        <translation>用户界面语言:</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Yellowcoin.</source>
-        <translation>在这里设置用户界面的语言。设置将在客户端重启后生效。</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting YellowCoin.</source>
+        <translation type="unfinished">在此设置用户界面语言。重启黄币客户端后设置生效。</translation>
     </message>
     <message>
-        <location line="+11"/>
+        <location line="+33"/>
+        <source>Whether to show YellowCoin addresses in the transaction list.</source>
+        <translation type="unfinished">是否在交易列表中显示黄币地址.</translation>
+    </message>
+    <message>
+        <location line="-22"/>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;YC币金额单位:</translation>
+        <translation>黄币金额单位:</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>选择YC币单位。</translation>
+        <translation>选择黄币单位。</translation>
     </message>
     <message>
-        <location line="+9"/>
-        <source>Whether to show Yellowcoin addresses in the transaction list or not.</source>
-        <translation>是否需要在交易清单中显示YC币地址。</translation>
+        <location line="+12"/>
+        <source>&amp;Display addresses in transaction list</source>
+        <translation>在交易清单中显示黄币地址</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Whether to show coin control features or not.</source>
+        <translation type="unfinished">是否需要显示发币控制功能。</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Display addresses in transaction list</source>
-        <translation>在交易清单中&amp;显示YC币地址</translation>
+        <source>Display coin &amp;control features (experts only!)</source>
+        <translation>是否显示发币控制功能</translation>
     </message>
     <message>
         <location line="+71"/>
         <source>&amp;OK</source>
-        <translation>&amp;确定</translation>
+        <translation>确定</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>&amp;Cancel</source>
-        <translation>&amp;取消</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>&amp;Apply</source>
-        <translation>&amp;应用</translation>
+        <translation>应用</translation>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="+53"/>
+        <location filename="../optionsdialog.cpp" line="+57"/>
         <source>default</source>
         <translation>缺省</translation>
     </message>
     <message>
-        <location line="+130"/>
+        <location line="+148"/>
+        <location line="+9"/>
+        <source>This setting will take effect after restarting YellowCoin.</source>
+        <translation type="unfinished">重启客户端后设置生效</translation>
+    </message>
+    <message>
         <source>Confirm options reset</source>
-        <translation>确认恢复缺省设置</translation>
+        <translation type="obsolete">确认恢复缺省设置</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Some settings may require a client restart to take effect.</source>
-        <translation>某些设置选项需要重启客户端才能生效</translation>
+        <translation type="obsolete">某些设置选项需要重启客户端才能生效</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Do you want to proceed?</source>
-        <translation>您希望继续吗？</translation>
+        <translation type="obsolete">您希望继续吗？</translation>
     </message>
     <message>
-        <location line="+42"/>
+        <location line="-9"/>
         <location line="+9"/>
         <source>Warning</source>
         <translation>警告</translation>
     </message>
     <message>
-        <location line="-9"/>
-        <location line="+9"/>
         <source>This setting will take effect after restarting Yellowcoin.</source>
-        <translation>需要重启客户端软件才能生效。</translation>
+        <translation type="obsolete">需要重启客户端软件才能生效。</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1041,28 +1455,37 @@ Address: %4
         <translation>表单</translation>
     </message>
     <message>
-        <location line="+50"/>
-        <location line="+166"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Yellowcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>现在显示的消息可能是过期的. 在连接上YC币网络节点后，您的钱包将自动与网络同步，但是这个过程还没有完成.</translation>
+        <translation type="obsolete">现在显示的消息可能是过期的. 在连接上黄币网络节点后，您的钱包将自动与网络同步，但是这个过程还没有完成.</translation>
     </message>
     <message>
-        <location line="-124"/>
+        <location line="+75"/>
         <source>Balance:</source>
         <translation>余额：</translation>
     </message>
     <message>
-        <location line="+29"/>
+        <location line="+58"/>
         <source>Unconfirmed:</source>
         <translation>未确认：</translation>
     </message>
     <message>
-        <location line="-78"/>
+        <location line="-107"/>
         <source>Wallet</source>
         <translation>钱包</translation>
     </message>
     <message>
-        <location line="+107"/>
+        <location line="+7"/>
+        <location line="+231"/>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the YellowCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">所显示的信息尚未更新，建立连接后钱包客户端会自动和网络进行同步，但目前该过程尚未完成。</translation>
+    </message>
+    <message>
+        <location line="-144"/>
+        <source>Total of coins that was staked, and do not yet count toward the current balance</source>
+        <translation type="unfinished">正在进行权益累积的货币总额（不计入目前钱包余额）</translation>
+    </message>
+    <message>
+        <location line="+42"/>
         <source>Immature:</source>
         <translation>未成熟的：</translation>
     </message>
@@ -1072,33 +1495,53 @@ Address: %4
         <translation>尚未成熟的挖矿收入余额</translation>
     </message>
     <message>
-        <location line="+46"/>
-        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
-        <translation>&lt;b&gt;最近交易记录&lt;/b&gt;</translation>
+        <location line="+20"/>
+        <source>Total number of transactions in wallet</source>
+        <translation type="unfinished">钱包交易总笔数</translation>
     </message>
     <message>
-        <location line="-101"/>
+        <location line="+62"/>
+        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
+        <translation>最近交易记录</translation>
+    </message>
+    <message>
+        <source>&amp;Lock Wallet</source>
+        <translation type="obsolete">加锁钱包</translation>
+    </message>
+    <message>
+        <location line="-166"/>
         <source>Your current balance</source>
         <translation>您的当前余额</translation>
     </message>
     <message>
-        <location line="+29"/>
+        <location line="+58"/>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
         <translation>尚未确认的交易总额, 未计入当前余额</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="+116"/>
+        <location filename="../overviewpage.cpp" line="+115"/>
         <location line="+1"/>
         <source>out of sync</source>
         <translation>数据同步中</translation>
     </message>
-	 <message>
-        <location line="+58"/>
+    <message>
+        <location line="+49"/>
+        <source>Lock Wallet</source>
+        <translation type="unfinished">加锁钱包</translation>
+    </message>
+    <message>
+        <location filename="../forms/overviewpage.ui" line="+181"/>
+        <location filename="../overviewpage.cpp" line="+7"/>
+        <source>Unlock Wallet</source>
+        <translation type="unfinished">解锁钱包</translation>
+    </message>
+    <message>
+        <location line="-142"/>
         <source>Number of transactions:</source>
         <translation>交易数量:</translation>
     </message>
-	<message>
-        <location line="+118"/>
+    <message>
+        <location line="-84"/>
         <source>Stake:</source>
         <translation>利息:</translation>
     </message>
@@ -1106,9 +1549,22 @@ Address: %4
 <context>
     <name>PaymentServer</name>
     <message>
-        <location filename="../paymentserver.cpp" line="+107"/>
         <source>Cannot start Yellowcoin: click-to-pay handler</source>
-        <translation>暂时无法启动YC币：点击支付功能</translation>
+        <translation type="obsolete">暂时无法启动黄币：点击支付功能</translation>
+    </message>
+</context>
+<context>
+    <name>QObject</name>
+    <message>
+        <location filename="../../main.cpp" line="+1898"/>
+        <source>Warning: This version is obsolete, upgrade required!</source>
+        <translation type="unfinished">警告：该软件版本已过时，请升级！</translation>
+    </message>
+    <message>
+        <location line="+2484"/>
+        <location line="+23"/>
+        <source>Info:Minting suspended due to locked wallet.</source>
+        <translation type="unfinished">提示：由于钱包被锁所以暂停挖矿.</translation>
     </message>
 </context>
 <context>
@@ -1141,7 +1597,7 @@ Address: %4
     <message>
         <location line="+71"/>
         <source>&amp;Save As...</source>
-        <translation>&amp;另存为</translation>
+        <translation>另存为</translation>
     </message>
     <message>
         <location filename="../qrcodedialog.cpp" line="+62"/>
@@ -1172,138 +1628,158 @@ Address: %4
 <context>
     <name>RPCConsole</name>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="+46"/>
+        <location filename="../forms/rpcconsole.ui" line="+92"/>
         <source>Client name</source>
         <translation>客户端名称</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <location line="+23"/>
-        <location line="+26"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+36"/>
-        <location line="+53"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location filename="../rpcconsole.cpp" line="+339"/>
+        <location line="-23"/>
+        <location line="+33"/>
+        <location line="+43"/>
+        <location line="+16"/>
+        <location line="+30"/>
+        <location line="+16"/>
+        <location line="+56"/>
+        <location line="+16"/>
+        <location line="+16"/>
+        <location filename="../rpcconsole.cpp" line="+348"/>
         <source>N/A</source>
         <translation>不可用</translation>
     </message>
     <message>
-        <location line="-217"/>
+        <location line="-121"/>
         <source>Client version</source>
         <translation>客户端版本</translation>
     </message>
     <message>
-        <location line="-45"/>
+        <location line="-150"/>
         <source>&amp;Information</source>
-        <translation>&amp;信息</translation>
+        <translation>信息</translation>
     </message>
     <message>
-        <location line="+68"/>
+        <location line="-10"/>
+        <source>YellowCoin - Debug window</source>
+        <translation type="unfinished">黄币 - 调试窗口</translation>
+    </message>
+    <message>
+        <location line="+313"/>
+        <source>YellowCoin Core</source>
+        <translation type="unfinished">黄币核心信息</translation>
+    </message>
+    <message>
+        <location line="+40"/>
         <source>Using OpenSSL version</source>
         <translation>使用OpenSSL版本</translation>
     </message>
     <message>
-        <location line="+49"/>
+        <location line="-321"/>
         <source>Startup time</source>
         <translation>启动时间</translation>
     </message>
     <message>
-        <location line="+29"/>
+        <location line="+13"/>
         <source>Network</source>
         <translation>网络</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+181"/>
         <source>Number of connections</source>
         <translation>连接数</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="-59"/>
         <source>On testnet</source>
-        <translation>当前为YC币测试网络</translation>
+        <translation>当前为黄币测试网络</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+133"/>
         <source>Block chain</source>
         <translation>数据链</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-179"/>
         <source>Current number of blocks</source>
         <translation>当前数据块数量</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+199"/>
         <source>Estimated total blocks</source>
         <translation>预计数据块数量</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="-114"/>
         <source>Last block time</source>
         <translation>上一数据块时间</translation>
     </message>
     <message>
-        <location line="+52"/>
-        <source>&amp;Open</source>
-        <translation>&amp;打开</translation>
+        <location line="+134"/>
+        <source>Open the YellowCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation type="unfinished">打开当前数据文件夹下的调试日志，若调试日志文件很大，可能花费较长时间。</translation>
     </message>
     <message>
-        <location line="+16"/>
+        <location line="+3"/>
+        <source>&amp;Open</source>
+        <translation>打开</translation>
+    </message>
+    <message>
+        <location line="-104"/>
         <source>Command-line options</source>
         <translation>命令行选项</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-131"/>
+        <source>Show the YellowCoin-Qt help message to get a list with possible YellowCoin command-line options.</source>
+        <translation type="unfinished">显示黄币帮助消息，获得黄币命令行命令.</translation>
+    </message>
+    <message>
         <source>Show the Yellowcoin-Qt help message to get a list with possible Yellowcoin command-line options.</source>
-        <translation>显示Yellowcoin命令行选项帮助信息</translation>
+        <translation type="obsolete">显示Yellowcoin命令行选项帮助信息</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Show</source>
-        <translation>&amp;显示</translation>
+        <translation>显示</translation>
     </message>
     <message>
-        <location line="+24"/>
+        <location line="+253"/>
         <source>&amp;Console</source>
-        <translation>&amp;控制台</translation>
+        <translation>控制台</translation>
     </message>
     <message>
-        <location line="-260"/>
+        <location line="-263"/>
         <source>Build date</source>
         <translation>创建时间</translation>
     </message>
     <message>
-        <location line="-104"/>
         <source>Yellowcoin - Debug window</source>
-        <translation>YC币 - 调试窗口</translation>
+        <translation type="obsolete">黄币 - 调试窗口</translation>
     </message>
     <message>
-        <location line="+25"/>
         <source>Yellowcoin Core</source>
-        <translation>YC币核心</translation>
+        <translation type="obsolete">黄币核心</translation>
     </message>
     <message>
-        <location line="+279"/>
+        <location line="-76"/>
         <source>Debug log file</source>
         <translation>调试日志文件</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Open the Yellowcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>打开当前目录中的调试日志文件。日志文件大的话可能要等上几秒钟。</translation>
+        <translation type="obsolete">打开当前目录中的调试日志文件。日志文件大的话可能要等上几秒钟。</translation>
     </message>
     <message>
-        <location line="+102"/>
+        <location line="+388"/>
         <source>Clear console</source>
         <translation>清空控制台</translation>
     </message>
     <message>
-        <location filename="../rpcconsole.cpp" line="-30"/>
         <source>Welcome to the Yellowcoin RPC console.</source>
-        <translation>欢迎来到 RPC 控制台.</translation>
+        <translation type="obsolete">欢迎来到 RPC 控制台.</translation>
+    </message>
+    <message>
+        <location filename="../rpcconsole.cpp" line="-33"/>
+        <source>Welcome to the YellowCoin RPC console.</source>
+        <translation type="unfinished">欢迎使用黄币RPC控制台</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1313,14 +1789,14 @@ Address: %4
     <message>
         <location line="+1"/>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>使用 &lt;b&gt;help&lt;/b&gt; 命令显示帮助信息.</translation>
+        <translation>使用命令显示帮助信息.</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="+14"/>
-        <location filename="../sendcoinsdialog.cpp" line="+124"/>
+        <location filename="../sendcoinsdialog.cpp" line="+204"/>
         <location line="+5"/>
         <location line="+5"/>
         <location line="+5"/>
@@ -1331,7 +1807,96 @@ Address: %4
         <translation>发送货币</translation>
     </message>
     <message>
+        <location line="+76"/>
+        <source>Coin Control Features</source>
+        <translation>发币控制功能</translation>
+    </message>
+    <message>
+        <location line="+20"/>
+        <source>&amp;Inputs...</source>
+        <translation type="unfinished">输入</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>automatically selected</source>
+        <translation>自动选择</translation>
+    </message>
+    <message>
+        <location line="+19"/>
+        <source>Insufficient funds!</source>
+        <translation>资金不足</translation>
+    </message>
+    <message>
+        <location line="+86"/>
+        <source>Quantity:</source>
+        <translation>数量</translation>
+    </message>
+    <message>
+        <location line="+22"/>
+        <location line="+35"/>
+        <source>0</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location line="-19"/>
+        <source>Bytes:</source>
+        <translation type="unfinished">字节</translation>
+    </message>
+    <message>
+        <location line="+51"/>
+        <source>Amount:</source>
+        <translation type="unfinished">金额：</translation>
+    </message>
+    <message>
+        <location line="+22"/>
+        <location line="+86"/>
+        <location line="+86"/>
+        <location line="+32"/>
+        <source>0.00 YC</source>
+        <translation type="unfinished">0.00 YC</translation>
+    </message>
+    <message>
+        <location line="-191"/>
+        <source>Priority:</source>
+        <translation>优先级</translation>
+    </message>
+    <message>
+        <location line="+19"/>
+        <source>medium</source>
+        <translation type="unfinished">中等</translation>
+    </message>
+    <message>
+        <location line="+32"/>
+        <source>Fee:</source>
+        <translation type="unfinished">费用：</translation>
+    </message>
+    <message>
+        <location line="+35"/>
+        <source>Low Output:</source>
+        <translation type="unfinished">低输出</translation>
+    </message>
+    <message>
+        <location line="+19"/>
+        <source>no</source>
+        <translation type="unfinished">否</translation>
+    </message>
+    <message>
+        <location line="+32"/>
+        <source>After Fee:</source>
+        <translation type="unfinished">加上交易费用后:</translation>
+    </message>
+    <message>
+        <location line="+35"/>
+        <source>Change</source>
+        <translation type="unfinished">变更 :</translation>
+    </message>
+    <message>
         <location line="+50"/>
+        <source>custom change address</source>
+        <translation type="unfinished">自定义更改地址</translation>
+    </message>
+    <message>
+        <location line="+115"/>
         <source>Send to multiple recipients at once</source>
         <translation>一次发送给多个接收者</translation>
     </message>
@@ -1348,7 +1913,7 @@ Address: %4
     <message>
         <location line="+3"/>
         <source>Clear &amp;All</source>
-        <translation>清除 &amp;所有</translation>
+        <translation>清除所有</translation>
     </message>
     <message>
         <location line="+22"/>
@@ -1357,8 +1922,8 @@ Address: %4
     </message>
     <message>
         <location line="+10"/>
-        <source>123.456 BTC</source>
-        <translation>123.456 BTC</translation>
+        <source>123.456 YC</source>
+        <translation type="unfinished">123.456 YC</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1371,7 +1936,52 @@ Address: %4
         <translation>发送</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="-59"/>
+        <location filename="../sendcoinsdialog.cpp" line="-191"/>
+        <source>Enter a YellowCoin address</source>
+        <translation type="unfinished">请输入一个黄币地址</translation>
+    </message>
+    <message>
+        <location line="+15"/>
+        <source>Copy quantity</source>
+        <translation type="unfinished">复制数量</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Copy amount</source>
+        <translation type="unfinished">复制金额</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Copy fee</source>
+        <translation type="unfinished">复制费用</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Copy after fee</source>
+        <translation type="unfinished">复制含交易费的金额</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Copy bytes</source>
+        <translation type="unfinished">复制字节</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Copy priority</source>
+        <translation type="unfinished">复制优先级</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Copy low output</source>
+        <translation type="unfinished">复制低产出</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Copy change</source>
+        <translation type="unfinished">复制零钱</translation>
+    </message>
+    <message>
+        <location line="+102"/>
         <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; 到 %2 (%3)</translation>
     </message>
@@ -1391,7 +2001,7 @@ Address: %4
         <translation> 和 </translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+31"/>
         <source>The recipient address is not valid, please recheck.</source>
         <translation>收款人地址不合法，请检查。</translation>
     </message>
@@ -1417,13 +2027,28 @@ Address: %4
     </message>
     <message>
         <location line="+5"/>
-        <source>Error: Transaction creation failed!</source>
-        <translation>错误：创建交易失败！</translation>
+        <source>Error: Transaction creation failed.</source>
+        <translation type="unfinished">错误：交易创建失败.</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+262"/>
+        <source>WARNING: Invalid Yellowcoin address</source>
+        <translation type="unfinished">警告:无效的黄币地址</translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>(no label)</source>
+        <translation type="unfinished">(没有标签)</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>WARNING: unknown change address</source>
+        <translation type="unfinished">警告:未知的地址</translation>
+    </message>
+    <message>
+        <location line="-274"/>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>错误: 交易被拒绝. 如果您使用的是备份钱包，可能存在两个钱包不同步的情况，另一个钱包中的YC币已经被使用，但本地的这个钱包尚没有记录。</translation>
+        <translation>错误: 交易被拒绝. 如果您使用的是备份钱包，可能存在两个钱包不同步的情况，另一个钱包中的黄币已经被使用，但本地的这个钱包尚没有记录。</translation>
     </message>
 </context>
 <context>
@@ -1441,26 +2066,30 @@ Address: %4
     <message>
         <location line="+13"/>
         <source>Pay &amp;To:</source>
-        <translation>付款&amp;给：</translation>
+        <translation>付款给：</translation>
     </message>
     <message>
-        <location line="+34"/>
         <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>付款给这个地址  (例如 Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <translation type="obsolete">付款给这个地址  (例如 Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
-        <location line="+60"/>
-        <location filename="../sendcoinsentry.cpp" line="+26"/>
+        <location line="+24"/>
+        <location filename="../sendcoinsentry.cpp" line="+25"/>
         <source>Enter a label for this address to add it to your address book</source>
         <translation>为这个地址输入一个标签，以便将它添加到您的地址簿</translation>
     </message>
     <message>
-        <location line="-78"/>
+        <location line="+9"/>
         <source>&amp;Label:</source>
-        <translation>&amp;标签：</translation>
+        <translation>标签：</translation>
     </message>
     <message>
-        <location line="+28"/>
+        <location line="+18"/>
+        <source>The address to send the payment to  (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
+        <translation type="unfinished">付款给这个地址  (例如 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
+    </message>
+    <message>
+        <location line="+10"/>
         <source>Choose address from address book</source>
         <translation>从地址簿选择地址</translation>
     </message>
@@ -1485,9 +2114,13 @@ Address: %4
         <translation>移除此接收者</translation>
     </message>
     <message>
+        <source>Enter a valid YellowCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation type="obsolete">输入一个有效的黄币地址 (例如: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+    </message>
+    <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Yellowcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>请输入YC币地址 (例如: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a valid YellowCoin address</source>
+        <translation type="unfinished">输入一个有效的黄币地址</translation>
     </message>
 </context>
 <context>
@@ -1499,33 +2132,38 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
+        <location line="+124"/>
         <source>&amp;Sign Message</source>
-        <translation>&amp;签名消息</translation>
+        <translation>签名消息</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="-118"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>您可以用你的地址对消息进行签名，以证明您是该地址的所有人。注意不要对模棱两可的消息签名，以免遭受钓鱼式攻击。请确保消息内容准确的表达了您的真实意愿。</translation>
     </message>
     <message>
-        <location line="+18"/>
         <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>用于签名消息的地址(例如: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <translation type="obsolete">用于签名消息的地址(例如: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+    </message>
+    <message>
+        <location line="+18"/>
+        <source>The address to sign the message with (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
+        <translation type="unfinished">用来签名该消息的地址(例如：4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
     </message>
     <message>
         <location line="+10"/>
-        <location line="+213"/>
+        <location line="+203"/>
         <source>Choose an address from the address book</source>
         <translation>从地址簿选择地址</translation>
     </message>
     <message>
-        <location line="-203"/>
-        <location line="+213"/>
+        <location line="-193"/>
+        <location line="+203"/>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
     <message>
-        <location line="-203"/>
+        <location line="-193"/>
         <source>Paste address from clipboard</source>
         <translation>从剪贴板粘贴地址</translation>
     </message>
@@ -1540,27 +2178,39 @@ Address: %4
         <translation>请输入您要发送的签名消息</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Signature</source>
-        <translation>签名</translation>
+        <location line="+45"/>
+        <source>Sign the message to prove you own this YellowCoin address</source>
+        <translation type="unfinished">对该消息进行签名以证明您对该黄币地址的所有权</translation>
     </message>
     <message>
-        <location line="+27"/>
+        <location line="+106"/>
+        <source>The address the message was signed with (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
+        <translation type="unfinished">用来签名该消息的地址(例如：4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
+    </message>
+    <message>
+        <location line="+40"/>
+        <source>Verify the message to ensure it was signed with the specified YellowCoin address</source>
+        <translation type="unfinished">验证消息，确保消息是由指定的黄币地址签名过的。</translation>
+    </message>
+    <message>
+        <source>Signature</source>
+        <translation type="obsolete">签名</translation>
+    </message>
+    <message>
+        <location line="-167"/>
         <source>Copy the current signature to the system clipboard</source>
         <translation>复制当前签名至剪切板</translation>
     </message>
     <message>
-        <location line="+21"/>
         <source>Sign the message to prove you own this Yellowcoin address</source>
-        <translation>签名消息，证明这个地址属于您。</translation>
+        <translation type="obsolete">签名消息，证明这个地址属于您。</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Sign &amp;Message</source>
-        <translation>消息签名</translation>
+        <translation type="obsolete">消息签名</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+38"/>
         <source>Reset all sign message fields</source>
         <translation>清空所有签名消息栏</translation>
     </message>
@@ -1568,53 +2218,59 @@ Address: %4
         <location line="+3"/>
         <location line="+146"/>
         <source>Clear &amp;All</source>
-        <translation>清除 &amp;所有</translation>
+        <translation>清除所有</translation>
     </message>
     <message>
         <location line="-87"/>
+        <location line="+70"/>
         <source>&amp;Verify Message</source>
-        <translation>&amp;验证消息</translation>
+        <translation>验证消息</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="-64"/>
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
         <translation>在下面输入签名地址，消息（请确保换行符、空格符、制表符等等一个不漏）和签名以验证消息。请确保签名信息准确，提防中间人攻击。</translation>
     </message>
     <message>
-        <location line="+21"/>
         <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>用于签名消息的地址(例如: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <translation type="obsolete">用于签名消息的地址(例如: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
-        <location line="+40"/>
         <source>Verify the message to ensure it was signed with the specified Yellowcoin address</source>
-        <translation>验证消息，确保消息是由指定的YC币地址签名过的。</translation>
+        <translation type="obsolete">验证消息，确保消息是由指定的黄币地址签名过的。</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Verify &amp;Message</source>
-        <translation>验证消息签名</translation>
+        <translation type="obsolete">验证消息签名</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+78"/>
         <source>Reset all verify message fields</source>
         <translation>清空所有验证消息栏</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="+27"/>
-        <location line="+3"/>
         <source>Enter a Yellowcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>请输入YC币地址 (例如: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <translation type="obsolete">请输入黄币地址 (例如: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
-        <location line="-2"/>
+        <location filename="../signverifymessagedialog.cpp" line="+28"/>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
         <translation>单击“签名消息“产生签名。</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Enter Yellowcoin signature</source>
-        <translation>输入YC币签名</translation>
+        <translation type="obsolete">输入黄币签名</translation>
+    </message>
+    <message>
+        <location line="-1"/>
+        <location line="+3"/>
+        <source>Enter a valid YellowCoin address</source>
+        <translation type="unfinished">输入一个有效的黄币地址</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enter YellowCoin signature</source>
+        <translation type="unfinished">输入黄币签名</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1686,20 +2342,25 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <location filename="../splashscreen.cpp" line="+22"/>
         <source>The Yellowcoin developers</source>
-        <translation>Yellowcoin-qt 客户端开发团队</translation>
+        <translation type="obsolete">Yellowcoin-qt 客户端开发团队</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>[testnet]</source>
-        <translation>[testnet]</translation>
+        <translation type="obsolete">[testnet]</translation>
     </message>
 </context>
 <context>
     <name>TransactionDesc</name>
+    <message numerus="yes">
+        <location filename="../transactiondesc.cpp" line="+17"/>
+        <source>Open for %n block(s)</source>
+        <translation>
+            <numerusform>开启 %n 个数据块</numerusform>
+        </translation>
+    </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="+20"/>
+        <location line="+2"/>
         <source>Open until %1</source>
         <translation>至 %1 个数据块时开启</translation>
     </message>
@@ -1726,7 +2387,9 @@ Address: %4
     <message numerus="yes">
         <location line="+7"/>
         <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>通过 %n 个节点广播</numerusform></translation>
+        <translation>
+            <numerusform>通过 %n 个节点广播</numerusform>
+        </translation>
     </message>
     <message>
         <location line="+4"/>
@@ -1772,14 +2435,16 @@ Address: %4
         <location line="+12"/>
         <location line="+45"/>
         <location line="+17"/>
-        <location line="+30"/>
+        <location line="+33"/>
         <source>Credit</source>
         <translation>收入</translation>
     </message>
     <message numerus="yes">
-        <location line="-102"/>
+        <location line="-105"/>
         <source>matures in %n more block(s)</source>
-        <translation><numerusform>将在 %n 个数据块后成熟</numerusform></translation>
+        <translation>
+            <numerusform>将在 %n 个数据块后成熟</numerusform>
+        </translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1790,12 +2455,12 @@ Address: %4
         <location line="+44"/>
         <location line="+8"/>
         <location line="+15"/>
-        <location line="+30"/>
+        <location line="+33"/>
         <source>Debit</source>
         <translation>支出</translation>
     </message>
     <message>
-        <location line="-39"/>
+        <location line="-42"/>
         <source>Transaction fee</source>
         <translation>交易费</translation>
     </message>
@@ -1810,7 +2475,7 @@ Address: %4
         <translation>消息</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+3"/>
         <source>Comment</source>
         <translation>备注</translation>
     </message>
@@ -1820,9 +2485,13 @@ Address: %4
         <translation>交易ID</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+5"/>
+        <source>Generated coins must mature 50 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation type="unfinished">新挖出的黄币必须等确120个确认才能使用。您生产出的数据块，将被广播到全网并添加到数据块链。如果入链失败，状态将变为“未被接受”，意味着您的数据块竞争失败，挖出的黄币将不能使用。当某个节点先于你几秒生产出新的数据块，这种情况会偶尔发生。 {50 ?}</translation>
+    </message>
+    <message>
         <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>新挖出的YC币必须等确120个确认才能使用。您生产出的数据块，将被广播到全网并添加到数据块链。如果入链失败，状态将变为“未被接受”，意味着您的数据块竞争失败，挖出的YC币将不能使用。当某个节点先于你几秒生产出新的数据块，这种情况会偶尔发生。</translation>
+        <translation type="obsolete">新挖出的黄币必须等确120个确认才能使用。您生产出的数据块，将被广播到全网并添加到数据块链。如果入链失败，状态将变为“未被接受”，意味着您的数据块竞争失败，挖出的黄币将不能使用。当某个节点先于你几秒生产出新的数据块，这种情况会偶尔发生。</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1835,7 +2504,7 @@ Address: %4
         <translation>交易</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+5"/>
         <source>Inputs</source>
         <translation>输入</translation>
     </message>
@@ -1855,17 +2524,18 @@ Address: %4
         <translation>错误</translation>
     </message>
     <message>
-        <location line="-209"/>
+        <location line="-214"/>
         <source>, has not been successfully broadcast yet</source>
         <translation>, 未被成功广播</translation>
     </message>
     <message numerus="yes">
-        <location line="-35"/>
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Open for %n more block</numerusform></translation>
+        <translation type="obsolete">
+            <numerusform>Open for %n more block</numerusform>
+        </translation>
     </message>
     <message>
-        <location line="+70"/>
+        <location line="+35"/>
         <source>unknown</source>
         <translation>未知</translation>
     </message>
@@ -1886,7 +2556,7 @@ Address: %4
 <context>
     <name>TransactionTableModel</name>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="+225"/>
+        <location filename="../transactiontablemodel.cpp" line="+226"/>
         <source>Date</source>
         <translation>日期</translation>
     </message>
@@ -1906,9 +2576,17 @@ Address: %4
         <translation>数量</translation>
     </message>
     <message numerus="yes">
-        <location line="+57"/>
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Open for %n more block</numerusform></translation>
+        <translation type="obsolete">
+            <numerusform>Open for %n more block</numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <location line="+57"/>
+        <source>Open for %n block(s)</source>
+        <translation>
+            <numerusform>开启 %n 个数据块</numerusform>
+        </translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1933,7 +2611,9 @@ Address: %4
     <message numerus="yes">
         <location line="+8"/>
         <source>Mined balance will be available when it matures in %n more block(s)</source>
-        <translation><numerusform>挖矿收入余额将在 %n 个数据块后可用</numerusform></translation>
+        <translation>
+            <numerusform>挖矿收入余额将在 %n 个数据块后可用</numerusform>
+        </translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1966,12 +2646,12 @@ Address: %4
         <translation>付款给自己</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+3"/>
         <source>Mined</source>
         <translation>挖矿所得</translation>
     </message>
     <message>
-        <location line="+38"/>
+        <location line="+43"/>
         <source>(n/a)</source>
         <translation>(n/a)</translation>
     </message>
@@ -1983,7 +2663,7 @@ Address: %4
     <message>
         <location line="+2"/>
         <source>Date and time that the transaction was received.</source>
-        <translation>接收YC币的时间</translation>
+        <translation>接收黄币的时间</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2004,7 +2684,7 @@ Address: %4
 <context>
     <name>TransactionView</name>
     <message>
-        <location filename="../transactionview.cpp" line="+52"/>
+        <location filename="../transactionview.cpp" line="+55"/>
         <location line="+16"/>
         <source>All</source>
         <translation>全部</translation>
@@ -2056,6 +2736,7 @@ Address: %4
     </message>
     <message>
         <location line="+1"/>
+        <location line="+1"/>
         <source>Mined</source>
         <translation>挖矿所得</translation>
     </message>
@@ -2090,9 +2771,8 @@ Address: %4
         <translation>复制金额</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Copy transaction ID</source>
-        <translation>复制交易编号</translation>
+        <translation type="obsolete">复制交易编号</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2105,7 +2785,7 @@ Address: %4
         <translation>显示交易详情</translation>
     </message>
     <message>
-        <location line="+139"/>
+        <location line="+142"/>
         <source>Export Transaction Data</source>
         <translation>导出交易数据</translation>
     </message>
@@ -2160,7 +2840,7 @@ Address: %4
         <translation>无法写入文件 %1。</translation>
     </message>
     <message>
-        <location line="+100"/>
+        <location line="+95"/>
         <source>Range:</source>
         <translation>范围：</translation>
     </message>
@@ -2173,74 +2853,64 @@ Address: %4
 <context>
     <name>WalletModel</name>
     <message>
-        <location filename="../walletmodel.cpp" line="+193"/>
         <source>Send Coins</source>
-        <translation>发送YC币</translation>
+        <translation type="obsolete">发送黄币</translation>
+    </message>
+    <message>
+        <location filename="../walletmodel.cpp" line="+309"/>
+        <source>Sending...</source>
+        <translation type="unfinished">发送中...</translation>
     </message>
 </context>
 <context>
     <name>WalletView</name>
     <message>
-        <location filename="../walletview.cpp" line="+42"/>
-        <source>&amp;Export</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Export the data in the current tab to a file</source>
-        <translation>导出当前数据到文件</translation>
+        <translation type="obsolete">导出当前数据到文件</translation>
     </message>
     <message>
-        <location line="+193"/>
         <source>Backup Wallet</source>
-        <translation>备份钱包</translation>
+        <translation type="obsolete">备份钱包</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Wallet Data (*.dat)</source>
-        <translation>钱包文件(*.dat)</translation>
+        <translation type="obsolete">钱包文件(*.dat)</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Backup Failed</source>
-        <translation>备份失败</translation>
+        <translation type="obsolete">备份失败</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>There was an error trying to save the wallet data to the new location.</source>
-        <translation>备份钱包到其它文件夹失败.</translation>
+        <translation type="obsolete">备份钱包到其它文件夹失败.</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Backup Successful</source>
-        <translation>备份成功</translation>
+        <translation type="obsolete">备份成功</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>The wallet data was successfully saved to the new location.</source>
-        <translation>钱包数据成功存储到新位置</translation>
+        <translation type="obsolete">钱包数据成功存储到新位置</translation>
     </message>
 </context>
 <context>
     <name>bitcoin-core</name>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="+94"/>
         <source>Yellowcoin version</source>
-        <translation>YC币版本</translation>
+        <translation type="obsolete">黄币版本</translation>
     </message>
     <message>
-        <location line="+102"/>
+        <location filename="../bitcoinstrings.cpp" line="+165"/>
         <source>Usage:</source>
         <translation>使用：</translation>
     </message>
     <message>
-        <location line="-29"/>
         <source>Send command to -server or Yellowcoind</source>
-        <translation>发送命令到服务器或者 Yellowcoind
+        <translation type="obsolete">发送命令到服务器或者 Yellowcoind
 </translation>
     </message>
     <message>
-        <location line="-23"/>
+        <location line="-47"/>
         <source>List commands</source>
         <translation>列出命令
 </translation>
@@ -2252,100 +2922,146 @@ Address: %4
 </translation>
     </message>
     <message>
-        <location line="+24"/>
+        <location line="+23"/>
         <source>Options:</source>
         <translation>选项：
 </translation>
     </message>
     <message>
-        <location line="+24"/>
         <source>Specify configuration file (default: Yellowcoin.conf)</source>
-        <translation>指定配置文件 (默认为 Yellowcoin.conf)
+        <translation type="obsolete">指定配置文件 (默认为 Yellowcoin.conf)
 </translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Specify pid file (default: Yellowcoind.pid)</source>
-        <translation>指定 pid 文件 (默认为 Yellowcoind.pid)
+        <translation type="obsolete">指定 pid 文件 (默认为 Yellowcoind.pid)
 </translation>
     </message>
     <message>
-        <location line="-1"/>
+        <location line="+25"/>
         <source>Specify data directory</source>
         <translation>指定数据目录
 </translation>
     </message>
     <message>
-        <location line="-9"/>
+        <location line="-8"/>
         <source>Set database cache size in megabytes (default: 25)</source>
         <translation>设置数据库缓冲区大小 (缺省: 25MB)</translation>
     </message>
     <message>
-        <location line="-28"/>
         <source>Listen for connections on &lt;port&gt; (default: 4200 or testnet: 14200)</source>
-        <translation>监听端口连接 &lt;port&gt; (缺省: 4200 or testnet: 14200)</translation>
+        <translation type="obsolete">监听端口连接 &lt;port&gt; (缺省: 4200 or testnet: 14200)</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="-23"/>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
         <translation>最大连接数 &lt;n&gt;  (缺省: 125)</translation>
     </message>
     <message>
-        <location line="-48"/>
+        <location line="-34"/>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
         <translation>连接一个节点并获取对端地址, 然后断开连接</translation>
     </message>
     <message>
-        <location line="+82"/>
+        <location line="+30"/>
+        <source>Listen for connections on &lt;port&gt; (default: 20801 or testnet: 30801)</source>
+        <translation type="unfinished">监听端口连接 &lt;port&gt; (缺省: 4200 or testnet: 14200) {20801 ?} {30801)?}</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>YellowCoin version</source>
+        <translation type="unfinished">黄币版本</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>YellowCoin</source>
+        <translation type="unfinished">黄币</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation type="unfinished">SSL 选项: (SSL 安装教程具体见比特币维基百科)</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Send command to -server or YellowCoind</source>
+        <translation type="unfinished">发送命令到服务器或者黄币</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Sending...</source>
+        <translation type="unfinished">发送中...</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Set database disk log size in megabytes (default: 100)</source>
+        <translation type="unfinished">设置数据库日志文件大小(单位MB，默认值100)</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Specify configuration file (default: YellowCoin.conf)</source>
+        <translation type="unfinished">指定配置文件(默认: YellowCoin.conf)</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Specify pid file (default: YellowCoind.pid)</source>
+        <translation type="unfinished">指定pid文件(默认: YellowCoind.pid)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Specify your own public address</source>
         <translation>指定您的公共地址</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+2"/>
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
         <translation>Threshold for disconnecting misbehaving peers (缺省: 100)</translation>
     </message>
     <message>
-        <location line="-134"/>
+        <location line="-110"/>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
         <translation>Number of seconds to keep misbehaving peers from reconnecting (缺省: 86400)</translation>
     </message>
     <message>
-        <location line="-29"/>
+        <location line="-27"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
         <translation>设置RPC监听端口%u时发生错误, IPv4:%s</translation>
     </message>
     <message>
-        <location line="+27"/>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 42000 or testnet: 42001)</source>
-        <translation>JSON-RPC连接监听端口&lt;port&gt; (缺省420002　testnet：42001)</translation>
+        <translation type="obsolete">JSON-RPC连接监听端口&lt;port&gt; (缺省420002　testnet：42001)</translation>
     </message>
     <message>
-        <location line="+37"/>
+        <location line="+53"/>
         <source>Accept command line and JSON-RPC commands</source>
         <translation>接受命令行和 JSON-RPC 命令
 </translation>
     </message>
     <message>
-        <location line="+76"/>
+        <location line="+62"/>
         <source>Run in the background as a daemon and accept commands</source>
         <translation>在后台运行并接受命令
 
 </translation>
     </message>
     <message>
-        <location line="+37"/>
+        <location line="+25"/>
+        <source>Unable to sign checkpoint, wrong checkpointkey?
+</source>
+        <translation type="unfinished">无法为记录点签名，错误的记录点密钥。</translation>
+    </message>
+    <message>
+        <location line="+9"/>
         <source>Use the test network</source>
         <translation>使用测试网络
 </translation>
     </message>
     <message>
-        <location line="-112"/>
+        <location line="-95"/>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
         <translation>接受来自外部的连接 (缺省: 如果不带 -proxy or -connect 参数设置为1)</translation>
     </message>
     <message>
-        <location line="-80"/>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
@@ -2357,7 +3073,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s &quot;Yellowcoin Alert&quot; admin@foo.com
 </source>
-        <translation>%s, 您必须在配置文件设置rpcpassword:
+        <translation type="obsolete">%s, 您必须在配置文件设置rpcpassword:
  %s
 建议您使用下面的随机密码:
 rpcuser=Yellowcoinrpc
@@ -2370,67 +3086,58 @@ rpcpassword=%s
 </translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="-52"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
         <translation>在IPv6模式下设置RPC监听端口 %u 失败，返回到IPv4模式: %s</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>绑定指定的IP地址开始监听。IPv6地址请使用[host]:port 格式</translation>
+        <translation type="obsolete">绑定指定的IP地址开始监听。IPv6地址请使用[host]:port 格式</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Cannot obtain a lock on data directory %s. Yellowcoin is probably already running.</source>
-        <translation>无法给数据目录 %s上锁。本软件可能已经在运行。</translation>
+        <translation type="obsolete">无法给数据目录 %s上锁。本软件可能已经在运行。</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>错误：该交易被拒绝！发生这种错误的原因可能是：钱包中的YC币已经被用掉，有可能您复制了wallet.dat钱包文件，然后用复制的钱包文件支付了YC币，但是这个钱包文件中没有记录。</translation>
+        <translation type="obsolete">错误：该交易被拒绝！发生这种错误的原因可能是：钱包中的黄币已经被用掉，有可能您复制了wallet.dat钱包文件，然后用复制的钱包文件支付了黄币，但是这个钱包文件中没有记录。</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation>错误：因为该交易的数量、复杂度或者动用了刚收到不久的资金，您需要支付不少于%s的交易费用。</translation>
+        <translation type="obsolete">错误：因为该交易的数量、复杂度或者动用了刚收到不久的资金，您需要支付不少于%s的交易费用。</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
-        <translation>当收到相关通知时执行命令（命令行中的 %s 的替换为消息）</translation>
+        <translation type="obsolete">当收到相关通知时执行命令（命令行中的 %s 的替换为消息）</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>当最佳区块变化时执行命令 (命令行中的 %s 会被替换成区块哈希值)</translation>
+        <translation type="obsolete">当最佳区块变化时执行命令 (命令行中的 %s 会被替换成区块哈希值)</translation>
     </message>
     <message>
-        <location line="+11"/>
+        <location line="+28"/>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
         <translation>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>这是测试用的预发布版本 - 请谨慎使用 - 不要用来挖矿，或者在正式商用环境下使用</translation>
+        <translation type="obsolete">这是测试用的预发布版本 - 请谨慎使用 - 不要用来挖矿，或者在正式商用环境下使用</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>警告：-paytxfee 交易费设置得太高了！每笔交易都将支付交易费。</translation>
+        <translation>警告：交易费设置得太高了！每笔交易都将支付交易费。</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Warning: Displayed transactions may not be correct! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>警告：显示的交易可能不正确！您需要升级客户端软件，或者网络上的其他节点需要升级。</translation>
+        <translation type="obsolete">警告：显示的交易可能不正确！您需要升级客户端软件，或者网络上的其他节点需要升级。</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Yellowcoin will not work properly.</source>
-        <translation>警告：请检查电脑的日期时间设置是否正确！时间错误可能会导致YC币客户端运行异常。</translation>
+        <translation type="obsolete">警告：请检查电脑的日期时间设置是否正确！时间错误可能会导致黄币客户端运行异常。</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+6"/>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
         <translation>警告：钱包文件wallet.dat读取失败！最重要的公钥、私钥数据都没有问题，但是交易记录或地址簿数据不正确，或者存在数据丢失。</translation>
     </message>
@@ -2450,197 +3157,143 @@ rpcpassword=%s
         <translation>数据块创建选项：</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+6"/>
         <source>Connect only to the specified node(s)</source>
         <translation>仅连接到指定节点</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Corrupted block database detected</source>
-        <translation>检测发现数据块数据库损坏。请使用 -reindex参数重启客户端。</translation>
+        <translation type="obsolete">检测发现数据块数据库损坏。请使用 -reindex参数重启客户端。</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+3"/>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
         <translation>发现自己的IP地址(缺省:不带 -externalip 参数监听时设置为1)</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Do you want to rebuild the block database now?</source>
-        <translation>你想现在就重建块数据库吗？</translation>
+        <translation type="obsolete">你想现在就重建块数据库吗？</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Error initializing block database</source>
-        <translation>初始化数据块数据库出错</translation>
+        <translation type="obsolete">初始化数据块数据库出错</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Error initializing wallet database environment %s!</source>
-        <translation>Error initializing wallet database environment %s!</translation>
+        <translation type="obsolete">Error initializing wallet database environment %s!</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Error loading block database</source>
-        <translation>导入数据块数据库出错</translation>
+        <translation type="obsolete">导入数据块数据库出错</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Error opening block database</source>
-        <translation>导入数据块数据库出错</translation>
+        <translation type="obsolete">导入数据块数据库出错</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Error: Disk space is low!</source>
-        <translation>错误：磁盘剩余空间低!</translation>
+        <translation type="obsolete">错误：磁盘剩余空间低!</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation>错误：钱包被锁定，无法创建交易！</translation>
+        <translation type="obsolete">错误：钱包被锁定，无法创建交易！</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Error: system error: </source>
-        <translation>错误：系统出错。</translation>
+        <translation type="obsolete">错误：系统出错。</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+11"/>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>监听端口失败。请使用 -listen=0 参数。</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Failed to read block info</source>
-        <translation>无法读取数据块信息</translation>
+        <translation type="obsolete">无法读取数据块信息</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Failed to read block</source>
-        <translation>读取数据块失败</translation>
+        <translation type="obsolete">读取数据块失败</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Failed to sync block index</source>
-        <translation>无法同步数据块索引</translation>
+        <translation type="obsolete">无法同步数据块索引</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Failed to write block index</source>
-        <translation>无法写入数据块索引</translation>
+        <translation type="obsolete">无法写入数据块索引</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Failed to write block info</source>
-        <translation>无法写入数据块信息</translation>
+        <translation type="obsolete">无法写入数据块信息</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Failed to write block</source>
-        <translation>无法写数据块</translation>
+        <translation type="obsolete">无法写数据块</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Failed to write file info</source>
-        <translation>无法写入文件信息</translation>
+        <translation type="obsolete">无法写入文件信息</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Failed to write to coin database</source>
-        <translation>无法写入coin数据库</translation>
+        <translation type="obsolete">无法写入coin数据库</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Failed to write transaction index</source>
-        <translation>无法写入交易索引</translation>
+        <translation type="obsolete">无法写入交易索引</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Failed to write undo data</source>
-        <translation>无法写入回滚信息</translation>
+        <translation type="obsolete">无法写入回滚信息</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Find peers using DNS lookup (default: 1 unless -connect)</source>
-        <translation>通过DNS查找节点(缺省：1 除非使用 -connect 选项)</translation>
+        <translation type="obsolete">通过DNS查找节点(缺省：1 除非使用 -connect 选项)</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Generate coins (default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
         <source>How many blocks to check at startup (default: 288, 0 = all)</source>
-        <translation>启动时检测多少个数据块(缺省：288，0=所有)</translation>
+        <translation type="obsolete">启动时检测多少个数据块(缺省：288，0=所有)</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>How thorough the block verification is (0-4, default: 3)</source>
-        <translation>How thorough the block verification is (0-4, default: 3)</translation>
+        <translation type="obsolete">How thorough the block verification is (0-4, default: 3)</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>Not enough file descriptors available.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+8"/>
         <source>Rebuild block chain index from current blk000??.dat files</source>
-        <translation>重新为当前的blk000??.dat文件建立索引</translation>
+        <translation type="obsolete">重新为当前的blk000??.dat文件建立索引</translation>
     </message>
     <message>
-        <location line="+16"/>
         <source>Set the number of threads to service RPC calls (default: 4)</source>
-        <translation>设置使用调用服务 RPC 的线程数量（默认：4）</translation>
+        <translation type="obsolete">设置使用调用服务 RPC 的线程数量（默认：4）</translation>
     </message>
     <message>
-        <location line="+26"/>
         <source>Verifying blocks...</source>
-        <translation>正在验证数据库的完整性...</translation>
+        <translation type="obsolete">正在验证数据库的完整性...</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Verifying wallet...</source>
-        <translation>正在检测钱包的完整性...</translation>
+        <translation type="obsolete">正在检测钱包的完整性...</translation>
     </message>
     <message>
-        <location line="-69"/>
         <source>Imports blocks from external blk000??.dat file</source>
-        <translation>从blk000??.dat文件导入数据块</translation>
+        <translation type="obsolete">从blk000??.dat文件导入数据块</translation>
     </message>
     <message>
-        <location line="-76"/>
-        <source>Set the number of script verification threads (up to 16, 0 = auto, &lt;0 = leave that many cores free, default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+77"/>
         <source>Information</source>
-        <translation>信息</translation>
+        <translation type="obsolete">信息</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+13"/>
         <source>Invalid -tor address: &apos;%s&apos;</source>
         <translation>非法的 -tor 地址：&apos;%s&apos; </translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Invalid amount for -mintxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+8"/>
         <source>Maintain a full transaction index (default: 0)</source>
-        <translation>维护一份完整的交易索引(缺省：0)</translation>
+        <translation type="obsolete">维护一份完整的交易索引(缺省：0)</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+10"/>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
         <translation>每个连接的最大接收缓存，&lt;n&gt;*1000 字节(缺省：5000)</translation>
     </message>
@@ -2650,12 +3303,11 @@ rpcpassword=%s
         <translation>每个连接的最大发送缓存，&lt;n&gt;*1000 字节(缺省：1000)</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Only accept block chain matching built-in checkpoints (default: 1)</source>
-        <translation>仅接受符合客户端检查点设置的数据块文件</translation>
+        <translation type="obsolete">仅接受符合客户端检查点设置的数据块文件</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+3"/>
         <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
         <translation>仅连接至指定网络的节点&lt;net&gt;(IPv4, IPv6 或者 Tor)</translation>
     </message>
@@ -2675,12 +3327,11 @@ rpcpassword=%s
         <translation>为调试输出信息添加时间戳</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>SSL options: (see the Yellowcoin Wiki for SSL setup instructions)</source>
-        <translation>SSL选项：(参见Yellowcoin Wiki关于SSL设置栏目)</translation>
+        <translation type="obsolete">SSL选项：(参见Yellowcoin Wiki关于SSL设置栏目)</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+5"/>
         <source>Select the version of socks proxy to use (4-5, default: 5)</source>
         <translation>请选择Socks代理服务器版本 (4 或 5, 缺省: 5)</translation>
     </message>
@@ -2695,7 +3346,7 @@ rpcpassword=%s
         <translation>跟踪/调试信息输出到 调试器debugger</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+7"/>
         <source>Set maximum block size in bytes (default: 250000)</source>
         <translation>设置最大数据块大小(缺省：250000)</translation>
     </message>
@@ -2705,14 +3356,9 @@ rpcpassword=%s
         <translation>设置最小数据块大小(缺省:0)</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
         <translation>客户端启动时压缩debug.log文件(缺省：no-debug模式时为1)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Signing transaction failed</source>
-        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
@@ -2720,27 +3366,11 @@ rpcpassword=%s
         <translation>设置连接超时时间(缺省：5000毫秒)</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>System error: </source>
-        <translation>系统错误：</translation>
+        <translation type="obsolete">系统错误：</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Transaction amount too small</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Transaction amounts must be positive</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Transaction too large</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+7"/>
+        <location line="+14"/>
         <source>Use UPnP to map the listening port (default: 0)</source>
         <translation>使用UPnp映射监听端口(缺省: 0)</translation>
     </message>
@@ -2761,19 +3391,17 @@ rpcpassword=%s
 </translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Warning</source>
-        <translation>警告</translation>
+        <translation type="obsolete">警告</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+4"/>
         <source>Warning: This version is obsolete, upgrade required!</source>
         <translation>警告：该软件版本已过时，请升级！</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>You need to rebuild the databases using -reindex to change -txindex</source>
-        <translation>You need to rebuild the databases using -reindex to change -txindex</translation>
+        <translation type="obsolete">You need to rebuild the databases using -reindex to change -txindex</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2781,52 +3409,52 @@ rpcpassword=%s
         <translation>钱包文件wallet.dat损坏，抢救备份失败</translation>
     </message>
     <message>
-        <location line="-50"/>
+        <location line="-44"/>
         <source>Password for JSON-RPC connections</source>
         <translation>JSON-RPC连接密码
 </translation>
     </message>
     <message>
-        <location line="-67"/>
+        <location line="-54"/>
         <source>Allow JSON-RPC connections from specified IP address</source>
         <translation>允许从指定IP接受到的JSON-RPC连接
 </translation>
     </message>
     <message>
-        <location line="+76"/>
+        <location line="+62"/>
         <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
         <translation>向IP地址为 &lt;ip&gt; 的节点发送指令 (缺省: 127.0.0.1)
 </translation>
     </message>
     <message>
-        <location line="-120"/>
+        <location line="-97"/>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
         <translation>当最佳数据块变化时执行命令 (命令行中的 %s 会被替换成数据块哈希值)</translation>
     </message>
     <message>
-        <location line="+147"/>
+        <location line="+121"/>
         <source>Upgrade wallet to latest format</source>
         <translation>将钱包升级到最新的格式</translation>
     </message>
     <message>
-        <location line="-21"/>
+        <location line="-16"/>
         <source>Set key pool size to &lt;n&gt; (default: 100)</source>
         <translation>设置密钥池大小为 &lt;n&gt; (缺省: 100)
 </translation>
     </message>
     <message>
-        <location line="-12"/>
+        <location line="-14"/>
         <source>Rescan the block chain for missing wallet transactions</source>
         <translation>重新扫描数据链以查找遗漏的交易
 </translation>
     </message>
     <message>
-        <location line="+35"/>
+        <location line="+32"/>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
         <translation>为 JSON-RPC 连接使用 OpenSSL (https)连接</translation>
     </message>
     <message>
-        <location line="-26"/>
+        <location line="-22"/>
         <source>Server certificate file (default: server.cert)</source>
         <translation>服务器证书 (默认为 server.cert)
 </translation>
@@ -2838,64 +3466,62 @@ rpcpassword=%s
 </translation>
     </message>
     <message>
-        <location line="-151"/>
+        <location line="-127"/>
         <source>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
         <translation>可接受的加密器 (默认为 TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)
 </translation>
     </message>
     <message>
-        <location line="+165"/>
+        <location line="+139"/>
         <source>This help message</source>
         <translation>该帮助信息
 </translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+3"/>
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
         <translation>无法绑定本机端口 %s  (返回错误消息 %d, %s)</translation>
     </message>
     <message>
-        <location line="-91"/>
+        <location line="-72"/>
         <source>Connect through socks proxy</source>
         <translation>通过 socks 代理连接</translation>
     </message>
     <message>
-        <location line="-10"/>
+        <location line="-11"/>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
         <translation>使用 -addnode, -seednode 和 -connect选项时允许DNS查找</translation>
     </message>
     <message>
-        <location line="+55"/>
+        <location line="+43"/>
         <source>Loading addresses...</source>
         <translation>正在加载地址...</translation>
     </message>
     <message>
-        <location line="-35"/>
+        <location line="-25"/>
         <source>Error loading wallet.dat: Wallet corrupted</source>
         <translation>wallet.dat钱包文件加载错误：钱包损坏</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Error loading wallet.dat: Wallet requires newer version of Yellowcoin</source>
-        <translation>wallet.dat钱包文件加载错误：请升级到最新Yellowcoin客户端</translation>
+        <translation type="obsolete">wallet.dat钱包文件加载错误：请升级到最新Yellowcoin客户端</translation>
     </message>
     <message>
-        <location line="+93"/>
         <source>Wallet needed to be rewritten: restart Yellowcoin to complete</source>
-        <translation>钱包文件需要重写：请退出并重新启动Yellowcoin客户端</translation>
+        <translation type="obsolete">钱包文件需要重写：请退出并重新启动Yellowcoin客户端</translation>
     </message>
     <message>
-        <location line="-95"/>
+        <location line="-1"/>
         <source>Error loading wallet.dat</source>
         <translation>wallet.dat钱包文件加载错误</translation>
     </message>
     <message>
-        <location line="+28"/>
+        <location line="+19"/>
         <source>Invalid -proxy address: &apos;%s&apos;</source>
         <translation>非法的代理地址: &apos;%s&apos;</translation>
     </message>
     <message>
-        <location line="+56"/>
+        <location line="+50"/>
         <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
         <translation>被指定的是未知网络 -onlynet: &apos;%s&apos;</translation>
     </message>
@@ -2905,7 +3531,81 @@ rpcpassword=%s
         <translation>被指定的是未知socks代理版本: %i</translation>
     </message>
     <message>
-        <location line="-96"/>
+        <location line="-153"/>
+        <source>%s, you must set a rpcpassword in the configuration file:
+ %s
+It is recommended you use the following random password:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(you do not need to remember this password)
+If the file does not exist, create it with owner-readable-only file permissions.
+</source>
+        <translation type="unfinished">%s, 必须在配置文件里设置rpc密码:
+ %s
+建议使用如下的随机密码:
+rpcuser=blackcoinrpc
+rpcpassword=%s
+(不需要记住该密码)
+如果该文件不存在，请自行创建并设为用户本身只读权限。
+</translation>
+    </message>
+    <message>
+        <location line="+17"/>
+        <source>Cannot obtain a lock on data directory %s.  YellowCoin is probably already running.</source>
+        <translation type="unfinished">无法从数据目录 %s 获得锁定.  黄币客户端可能已在运行中.</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Detach block and address databases. Increases shutdown time (default: 0)</source>
+        <translation type="unfinished">离线保存区块和地址数据库。增加关机时间。(默认: 0)</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Error initializing database environment %s! To recover, BACKUP THAT DIRECTORY, then remove everything from it except for wallet.dat.</source>
+        <translation type="unfinished">数据库环境 %s 初始化错误。要修复，备份该目录并将其下除wallet.dat以外的文件全部删除。</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Error: The transaction was rejected.  This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <translation type="unfinished">错误：交易被拒绝。可能由于钱包中部分金额已被使用，例如您使用了钱包数据的副本，在副本中某些金额已被使用，但在此处尚未被标记为已使用。</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds  </source>
+        <translation type="unfinished">错误：因为该交易的数量、复杂度或者动用了刚收到不久的资金，您需要支付不少于%s的交易费用。</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Error: Wallet unlocked for block minting only, unable to create transaction.</source>
+        <translation type="unfinished">错误：钱包解密只用于产生利息，无法创建交易！</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 20802 or testnet: 30802)</source>
+        <translation type="unfinished">JSON-RPC连接监听端口&lt;port&gt; (缺省420002　testnet：42001) {20802 ?} {30802)?}</translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Unable to bind to %s on this computer. YellowCoin is probably already running.</source>
+        <translation type="unfinished">无法绑定到该计算机上的 %s. 黄币客户端可能已在运行中。</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong YellowCoin will not work properly.</source>
+        <translation type="unfinished">警告：请确认您计算机的本地时间。如果时钟错误，黄币客户端将不能正常工作。</translation>
+    </message>
+    <message>
+        <location line="+21"/>
+        <source>Bind to given address. Use [host]:port notation for IPv6</source>
+        <translation type="unfinished">以IPv6 [host]:端口绑定给定地址</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Cannot initialize keypool</source>
+        <translation type="unfinished">无法初始化密钥池。</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Cannot resolve -bind address: &apos;%s&apos;</source>
         <translation>无法解析 -bind 端口地址: &apos;%s&apos;</translation>
     </message>
@@ -2915,9 +3615,84 @@ rpcpassword=%s
         <translation>无法解析 -externalip 地址: &apos;%s&apos;</translation>
     </message>
     <message>
-        <location line="+44"/>
+        <location line="+6"/>
+        <source>Don&apos;t generate coins</source>
+        <translation type="unfinished">不要生成货币</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Error loading blkindex.dat</source>
+        <translation type="unfinished">blkindex.dat文件加载错误</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Error loading wallet.dat: Wallet requires newer version of YellowCoin</source>
+        <translation type="unfinished">wallet.dat钱包文件加载错误：请升级到最新黄币客户端</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Error: Transaction creation failed  </source>
+        <translation type="unfinished">错误：交易创建失败。</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Error: Wallet locked, unable to create transaction  </source>
+        <translation type="unfinished">错误：钱包已锁定，无法创建交易。</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Error: could not start node</source>
+        <translation type="unfinished">错误：无法启动节点</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Find peers using DNS lookup (default: 0)</source>
+        <translation type="unfinished">以DNS查找方式寻找节点 (默认：0)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Find peers using internet relay chat (default: 1)</source>
+        <translation type="unfinished">寻找使用互联网接力聊天的节点 (默认: 1)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Generate coins</source>
+        <translation type="unfinished">生成货币</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>How many blocks to check at startup (default: 2500, 0 = all)</source>
+        <translation type="unfinished">启动时检测多少个数据块(缺省：288，0=所有) {2500, 0 ?}</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>How thorough the block verification is (0-6, default: 1)</source>
+        <translation type="unfinished">区块确认的彻底程度 (0-6, 默认: 1)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Importing blockchain data file.</source>
+        <translation type="unfinished">正在导入区块链数据文件</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Importing bootstrap blockchain data file.</source>
+        <translation type="unfinished">正在导入高速区块链数据文件</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Imports blocks from external blk000?.dat file</source>
+        <translation type="unfinished">从外部 blk000?.dat 文件导入区块</translation>
+    </message>
+    <message>
+        <location line="+4"/>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
         <translation>非法金额 -paytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Invalid amount for -reservebalance=&lt;amount&gt;</source>
+        <translation type="unfinished">-reservebalance=&lt;amount&gt; 金额无效</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2925,67 +3700,81 @@ rpcpassword=%s
         <translation>金额不对</translation>
     </message>
     <message>
-        <location line="-6"/>
+        <location line="+55"/>
+        <source>Verifying database integrity...</source>
+        <translation type="unfinished">正在检查数据库完整性...</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Wallet needed to be rewritten: restart YellowCoin to complete</source>
+        <translation type="unfinished">需要重写钱包，重启客户端以完成该操作。</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Warning: Disk space is low!</source>
+        <translation type="unfinished">警告：磁盘空间低!</translation>
+    </message>
+    <message>
+        <location line="-62"/>
         <source>Insufficient funds</source>
         <translation>金额不足</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+9"/>
         <source>Loading block index...</source>
         <translation>加载数据块索引...</translation>
     </message>
     <message>
-        <location line="-57"/>
+        <location line="-45"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation>添加节点并与其保持连接</translation>
     </message>
     <message>
-        <location line="-25"/>
         <source>Unable to bind to %s on this computer. Yellowcoin is probably already running.</source>
-        <translation>无法在本机绑定 %s 端口 . YC币客户端软件可能已经在运行.</translation>
+        <translation type="obsolete">无法在本机绑定 %s 端口 . 黄币客户端软件可能已经在运行.</translation>
     </message>
     <message>
-        <location line="+64"/>
+        <location line="+26"/>
         <source>Fee per KB to add to transactions you send</source>
         <translation>每发送1KB交易所需的费用</translation>
     </message>
     <message>
-        <location line="+19"/>
+        <location line="+20"/>
         <source>Loading wallet...</source>
         <translation>正在加载钱包...</translation>
     </message>
     <message>
-        <location line="-52"/>
+        <location line="-40"/>
         <source>Cannot downgrade wallet</source>
         <translation>无法降级钱包格式</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+4"/>
         <source>Cannot write default address</source>
         <translation>无法写入缺省地址</translation>
     </message>
     <message>
-        <location line="+64"/>
+        <location line="+49"/>
         <source>Rescanning...</source>
         <translation>正在重新扫描...</translation>
     </message>
     <message>
-        <location line="-57"/>
+        <location line="-43"/>
         <source>Done loading</source>
         <translation>加载完成</translation>
     </message>
     <message>
-        <location line="+82"/>
+        <location line="+67"/>
         <source>To use the %s option</source>
         <translation>使用 %s 选项</translation>
     </message>
     <message>
-        <location line="-74"/>
+        <location line="-62"/>
         <source>Error</source>
         <translation>错误</translation>
     </message>
     <message>
-        <location line="-31"/>
+        <location line="-28"/>
         <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
 %s
 If the file does not exist, create it with owner-readable-only file permissions.</source>
